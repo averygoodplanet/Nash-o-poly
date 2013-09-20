@@ -17,6 +17,10 @@
   .board .row {
     height: 120px;
     width: 780px; }
+  .board .row#top {
+    background-color: red; }
+    .board .row#top div:nth-child(3) {
+      background-color: green; }
   .board #left {
     border: 5px solid green;
     /* for testing */
