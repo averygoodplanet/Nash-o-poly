@@ -20,13 +20,11 @@
 
   #top
   {
-    // border: 5px solid black; /*for testing */
     @include border_box_fn();
   }
 
   #bottom
   {
-    border: 5px solid orange;
     @include border_box_fn();
   }
 
@@ -92,39 +90,46 @@
 
   .bar_orange
   {
-
+    @include border_box_fn;
+    @include bar_fn($board_orange, $var2X);
   }
 
   .bar_red
   {
-
+    @include border_box_fn;
+    @include bar_fn($board_red, $var2X);
   }
 
   .bar_yellow
   {
-
+    @include border_box_fn;
+    @include bar_fn($board_yellow, $var2X);
   }
 
   .bar_green
   {
-
-
+    @include border_box_fn;
+    @include bar_fn($board_green, $var2X);
   }
 
   .bar_darkblue
   {
-
+    @include border_box_fn;
+    @include bar_fn($board_darkblue, $var2X);
   }
 
   .bar_brown
   {
-
+    @include border_box_fn;
+    @include bar_fn($board_brown, $var2X);
   }
 
   .bar_lightblue
   {
-
+    @include border_box_fn;
+    @include bar_fn($board_lightblue, $var2X);
   }
+
   .insideboard
   { /* inside board is 540 x 540 where
     outside board is 780 X 780 */

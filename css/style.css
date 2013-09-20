@@ -60,7 +60,6 @@ nav {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
   .board #bottom {
-    border: 5px solid orange;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
@@ -106,6 +105,55 @@ nav {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #c40774;
+    height: 24px;
+    border: 1px solid black; }
+  .board .bar_orange {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e38800;
+    height: 24px;
+    border: 1px solid black; }
+  .board .bar_red {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #cd001a;
+    height: 24px;
+    border: 1px solid black; }
+  .board .bar_yellow {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e4ea00;
+    height: 24px;
+    border: 1px solid black; }
+  .board .bar_green {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #1aa03b;
+    height: 24px;
+    border: 1px solid black; }
+  .board .bar_darkblue {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #304ea2;
+    height: 24px;
+    border: 1px solid black; }
+  .board .bar_brown {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #75390b;
+    height: 24px;
+    border: 1px solid black; }
+  .board .bar_lightblue {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #83c6f0;
     height: 24px;
     border: 1px solid black; }
   .board .insideboard {
