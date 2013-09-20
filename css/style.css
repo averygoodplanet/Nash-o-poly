@@ -1,79 +1,40 @@
-@import url(http://fonts.googleapis.com/css?family=Satisfy);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
-#card_title {
-  font-family: 'Satisfy', cursive; }
+/*
+Syntax error: Invalid CSS after "@import 'header';": expected selector or at-rule, was "<<<<<<< HEAD"
+        on line 5 of scss/style.scss
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
-  /* we have font-weight: 200, 400, and 700 */ }
+1: @import 'colors';
+2: @import 'fonts';
+3: @import 'functions';
+4: @import 'header';
+5: <<<<<<< HEAD
+6: @import 'nav';
+7: @import 'board';
+8: 
+9: 
+10: 
 
-nav {
-  font-family: 'Satisfy', cursive; }
-
-nav {
-  width: 200px;
-  background-color: white;
-  float: left;
-  border-right: 2px solid grey; }
-  nav ul {
-    list-style-type: none; }
-    nav ul li a {
-      text-decoration: none;
-      color: black;
-      font-size: 30px; }
-    nav ul li:nth-child(1) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(1) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(2) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(2) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(3) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(3) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(4) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(4) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(5) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(5) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(6) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(6) :hover {
-        background-color: yellow; }
-
-.board {
-  float: right;
-  /* this needs to be changed when done with placement*/
-  background-color: yellow;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-  .board .insideboard {
-    height: 640px;
-    width: 640px;
-    position: relative;
-    /* this needs to be changed when done with placement*/
-    background-color: blue;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
-    .board .insideboard img {
-      width: 100px;
-      height: 100px;
-      float: left;
-      padding-right: 20px; }
-    .board .insideboard p {
-      width: 200px;
-      float: left; }
-
-body {
-  width: 960px; }
-
-.clear {
-  clear: both; }
+Backtrace:
+scss/style.scss:5
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1145:in `expected'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:28:in `parse'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:342:in `_to_tree'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/home/leah/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"@import 'header';\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 5 of scss/style.scss\A \A 1: @import 'colors';\A 2: @import 'fonts';\A 3: @import 'functions';\A 4: @import 'header';\A 5: <<<<<<< HEAD\A 6: @import 'nav';\A 7: @import 'board';\A 8: \A 9: \A 10: "; }
