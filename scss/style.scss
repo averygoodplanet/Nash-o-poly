@@ -2,9 +2,23 @@
 @import 'fonts';
 @import 'functions';
 @import 'header';
+@import 'nav';
 @import 'board';
+
+
+
+
+body
+{
+  width:960px;
+
+
+}
 
 .clear
 {
-  clear: both;
+  clear:both;
+
+
+
 }
