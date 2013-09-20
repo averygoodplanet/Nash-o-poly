@@ -46,13 +46,11 @@
 
   #left
   {
-    border: 5px solid green;/* for testing */
     @include border_box_fn();
   }
 
   #right
   {
-    border: 5px solid red; /* for testing */
     @include border_box_fn();
   }
 
@@ -79,6 +77,14 @@
     height: $var2X;
     width: $varX;
     float: left;
+  }
+
+  .horizontal_tile
+  {
+    @include border_box_fn;
+    border: 1px solid black;
+    height: $varX;
+    width: $var2X;
   }
 
   .bar_purple
