@@ -1,6 +1,7 @@
 .board
 {
 
+  $float_right: right;
   float:right;
 
 
@@ -20,13 +21,11 @@
 
   #top
   {
-    // border: 5px solid black; /*for testing */
     @include border_box_fn();
   }
 
   #bottom
   {
-    border: 5px solid orange;
     @include border_box_fn();
   }
 
@@ -38,7 +37,7 @@
 
   .row#top
   { //Example of styling different tiles within a row
-    background-color: red;
+    // background-color: red;
 
     div:nth-child(3)
     {
@@ -48,13 +47,11 @@
 
   #left
   {
-    border: 5px solid green;/* for testing */
     @include border_box_fn();
   }
 
   #right
   {
-    border: 5px solid red; /* for testing */
     @include border_box_fn();
   }
 
@@ -83,49 +80,68 @@
     float: left;
   }
 
-  .bar_purple
+  .horizontal_tile
   {
     @include border_box_fn;
-    background-color: $board_purple;
-    height: 0.2 * $var2X;
     border: 1px solid black;
+    height: $varX;
+    width: $var2X;
   }
 
-  .bar_orange
+  .bar_purple_vertical
   {
-
+    @include border_box_fn;
+    @include bar_fn_vertical($board_purple, $var2X);
   }
 
-  .bar_red
+  .bar_purple_horizontal
   {
-
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_purple, $varX, $var2X, right);
   }
 
-  .bar_yellow
+  .bar_orange_vertical
   {
-
+    @include border_box_fn;
+    @include bar_fn_vertical($board_orange, $var2X);
   }
 
-  .bar_green
+  .bar_red_vertical
   {
-
-
+    @include border_box_fn;
+    @include bar_fn_vertical($board_red, $var2X);
   }
 
-  .bar_darkblue
+  .bar_yellow_vertical
   {
-
+    @include border_box_fn;
+    @include bar_fn_vertical($board_yellow, $var2X);
   }
 
-  .bar_brown
+  .bar_green_vertical
   {
-
+    @include border_box_fn;
+    @include bar_fn_vertical($board_green, $var2X);
   }
 
-  .bar_lightblue
+  .bar_darkblue_vertical
   {
-
+    @include border_box_fn;
+    @include bar_fn_vertical($board_darkblue, $var2X);
   }
+
+  .bar_brown_vertical
+  {
+    @include border_box_fn;
+    @include bar_fn_vertical($board_brown, $var2X);
+  }
+
+  .bar_lightblue_vertical
+  {
+    @include border_box_fn;
+    @include bar_fn_vertical($board_lightblue, $var2X);
+  }
+
   .insideboard
   { /* inside board is 540 x 540 where
     outside board is 780 X 780 */
