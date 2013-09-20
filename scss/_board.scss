@@ -6,36 +6,44 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color:$board_background_color;
-  $varX: 780px / 13; /* 780/13 = 60. */
-  $var2X: $varX * 2;
+  $varX: 780px / 13; // $varX = 60
+  $var2X: $varX * 2; // $var2X = 120
+  $var9X: $varX * 9; // $var9X = 540
+  $var13X: $varX * 13; // $var13X = 780
+
+
+  #top
+  {
+    border: 5px solid black; /*for testing */
+  }
+
+  #bottom
+  {
+    border: 5px solid orange;
+  }
 
   .row
   {
-    width: $var2X;
+    height: $var2X;
+    width: $var13X;
+  }
 
-    #top
-    {
 
-    }
+  #left
+  {
+    border: 5px solid green;/* for testing */
+  }
 
-    #bottom
-    {
-
-    }
+  #right
+  {
+    border: 5px solid red; /* for testing */
   }
 
   .column
   {
-
-    #left
-    {
-
-    }
-
-    #right
-    {
-
-    }
+    height: $var9X;
+    width: $var2X;
+    float: left;
   }
 
   .insideboard

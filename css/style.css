@@ -4,10 +4,25 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #cce4c8;
-  /* 780/13 = 60. */ }
+  background-color: #cce4c8; }
+  .board #top {
+    border: 5px solid black;
+    /*for testing */ }
+  .board #bottom {
+    border: 5px solid orange; }
   .board .row {
-    width: 120px; }
+    height: 120px;
+    width: 780px; }
+  .board #left {
+    border: 5px solid green;
+    /* for testing */ }
+  .board #right {
+    border: 5px solid red;
+    /* for testing */ }
+  .board .column {
+    height: 540px;
+    width: 120px;
+    float: left; }
   .board .insideboard {
     height: 640px;
     width: 640px;
@@ -15,3 +30,6 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+
+.clear {
+  clear: both; }
