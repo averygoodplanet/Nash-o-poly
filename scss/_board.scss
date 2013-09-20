@@ -15,11 +15,13 @@
   #top
   {
     border: 5px solid black; /*for testing */
+    @include border_box_fn();
   }
 
   #bottom
   {
     border: 5px solid orange;
+    @include border_box_fn();
   }
 
   .row
@@ -32,11 +34,13 @@
   #left
   {
     border: 5px solid green;/* for testing */
+    @include border_box_fn();
   }
 
   #right
   {
     border: 5px solid red; /* for testing */
+    @include border_box_fn();
   }
 
   .column
@@ -47,9 +51,12 @@
   }
 
   .insideboard
-  {
-    height: 640px;
-    width: 640px;
+  { /* inside board is 540 x 540 where
+    outside board is 780 X 780 */
+    display: block;
+    float: left;
+    height: 540px;
+    width: 540px;
     position: relative;
 
 

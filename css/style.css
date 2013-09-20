@@ -7,25 +7,41 @@
   background-color: #cce4c8; }
   .board #top {
     border: 5px solid black;
-    /*for testing */ }
+    /*for testing */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
   .board #bottom {
-    border: 5px solid orange; }
+    border: 5px solid orange;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
   .board .row {
     height: 120px;
     width: 780px; }
   .board #left {
     border: 5px solid green;
-    /* for testing */ }
+    /* for testing */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
   .board #right {
     border: 5px solid red;
-    /* for testing */ }
+    /* for testing */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
   .board .column {
     height: 540px;
     width: 120px;
     float: left; }
   .board .insideboard {
-    height: 640px;
-    width: 640px;
+    /* inside board is 540 x 540 where
+    outside board is 780 X 780 */
+    display: block;
+    float: left;
+    height: 540px;
+    width: 540px;
     position: relative;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
