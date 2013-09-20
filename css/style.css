@@ -53,6 +53,13 @@
     height: 120px;
     width: 60px;
     float: left; }
+  .board .bar_purple {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #c40774;
+    height: 24px;
+    border: 1px solid black; }
   .board .insideboard {
     /* inside board is 540 x 540 where
     outside board is 780 X 780 */
