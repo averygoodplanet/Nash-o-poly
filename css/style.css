@@ -6,8 +6,6 @@
   box-sizing: border-box;
   background-color: #cce4c8; }
   .board #top {
-    border: 5px solid black;
-    /*for testing */
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
@@ -34,6 +32,22 @@
   .board .column {
     height: 540px;
     width: 120px;
+    float: left; }
+  .board .corner {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    float: left; }
+  .board .vertical_tile {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 120px;
+    width: 60px;
     float: left; }
   .board .insideboard {
     /* inside board is 540 x 540 where

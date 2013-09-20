@@ -14,7 +14,7 @@
 
   #top
   {
-    border: 5px solid black; /*for testing */
+    // border: 5px solid black; /*for testing */
     @include border_box_fn();
   }
 
@@ -47,6 +47,24 @@
   {
     height: $var9X;
     width: $var2X;
+    float: left;
+  }
+
+  .corner
+  {
+    @include border_box_fn;
+    border: 1px solid black;
+    height: $var2X;
+    width: $var2X;
+    float: left;
+  }
+
+  .vertical_tile
+  {
+    @include border_box_fn;
+    border: 1px solid black;
+    height: $var2X;
+    width: $varX;
     float: left;
   }
 
