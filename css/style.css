@@ -110,6 +110,15 @@ nav {
     background-color: #c40774;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_purple_horizontal {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #c40774;
+    height: 60px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
   .board .bar_orange_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;

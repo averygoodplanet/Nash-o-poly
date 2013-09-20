@@ -1,6 +1,7 @@
 .board
 {
 
+  $float_right: right;
   float:right;
 
 
@@ -91,7 +92,12 @@
   {
     @include border_box_fn;
     @include bar_fn_vertical($board_purple, $var2X);
+  }
 
+  .bar_purple_horizontal
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_purple, $varX, $var2X, right);
   }
 
   .bar_orange_vertical
