@@ -1,5 +1,9 @@
 .board
 {
+  float:right;
+  /* this needs to be changed when done with placement*/
+  background-color: yellow;
+
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -9,11 +13,28 @@
     height: 640px;
     width: 640px;
     position: relative;
+  /* this needs to be changed when done with placement*/
+  background-color: blue;
 
 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+
+      img
+      {
+        width:100px;
+        height:100px;
+        float:left;
+        padding-right: 20px;
+
+      }
+      p
+      {
+        width: 200px;
+        float: left;
+      }
+
 
   }
 }
