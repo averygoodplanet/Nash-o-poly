@@ -3,3 +3,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@mixin bar_fn($color, $var2X) {
+  background-color: $color;
+  height: 0.2 * $var2X;
+  border: 1px solid black;
+}

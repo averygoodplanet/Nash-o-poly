@@ -38,7 +38,7 @@
 
   .row#top
   { //Example of styling different tiles within a row
-    background-color: red;
+    // background-color: red;
 
     div:nth-child(3)
     {
@@ -86,9 +86,8 @@
   .bar_purple
   {
     @include border_box_fn;
-    background-color: $board_purple;
-    height: 0.2 * $var2X;
-    border: 1px solid black;
+    @include bar_fn($board_purple, $var2X);
+
   }
 
   .bar_orange
