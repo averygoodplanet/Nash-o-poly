@@ -1,8 +1,42 @@
 .board
 {
+  height: 780px;
+  width: 780px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  background-color:$board_background_color;
+  $varX: 780px / 13; /* 780/13 = 60. */
+  $var2X: $varX * 2;
+
+  .row
+  {
+    width: $var2X;
+
+    #top
+    {
+
+    }
+
+    #bottom
+    {
+
+    }
+  }
+
+  .column
+  {
+
+    #left
+    {
+
+    }
+
+    #right
+    {
+
+    }
+  }
 
   .insideboard
   {

@@ -1,7 +1,13 @@
 .board {
+  height: 780px;
+  width: 780px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #cce4c8;
+  /* 780/13 = 60. */ }
+  .board .row {
+    width: 120px; }
   .board .insideboard {
     height: 640px;
     width: 640px;
