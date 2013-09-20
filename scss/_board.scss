@@ -87,53 +87,53 @@
     width: $var2X;
   }
 
-  .bar_purple
+  .bar_purple_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_purple, $var2X);
+    @include bar_fn_vertical($board_purple, $var2X);
 
   }
 
-  .bar_orange
+  .bar_orange_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_orange, $var2X);
+    @include bar_fn_vertical($board_orange, $var2X);
   }
 
-  .bar_red
+  .bar_red_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_red, $var2X);
+    @include bar_fn_vertical($board_red, $var2X);
   }
 
-  .bar_yellow
+  .bar_yellow_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_yellow, $var2X);
+    @include bar_fn_vertical($board_yellow, $var2X);
   }
 
-  .bar_green
+  .bar_green_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_green, $var2X);
+    @include bar_fn_vertical($board_green, $var2X);
   }
 
-  .bar_darkblue
+  .bar_darkblue_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_darkblue, $var2X);
+    @include bar_fn_vertical($board_darkblue, $var2X);
   }
 
-  .bar_brown
+  .bar_brown_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_brown, $var2X);
+    @include bar_fn_vertical($board_brown, $var2X);
   }
 
-  .bar_lightblue
+  .bar_lightblue_vertical
   {
     @include border_box_fn;
-    @include bar_fn($board_lightblue, $var2X);
+    @include bar_fn_vertical($board_lightblue, $var2X);
   }
 
   .insideboard
