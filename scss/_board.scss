@@ -1,0 +1,19 @@
+.board
+{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  .insideboard
+  {
+    height: 640px;
+    width: 640px;
+    position: relative;
+
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+  }
+}
