@@ -11,42 +11,165 @@ body {
 nav {
   font-family: 'Satisfy', cursive; }
 
-nav {
+#logo {
+  width: 1000px;
+  height: 650px; }
+
+/*This was in the first nav.scss file I did
+
+#wrapper
+{
   width: 200px;
   background-color: white;
-  float: left;
-  border-right: 2px solid grey; }
-  nav ul {
-    list-style-type: none; }
-    nav ul li a {
-      text-decoration: none;
-      color: black;
-      font-size: 30px; }
-    nav ul li:nth-child(1) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(1) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(2) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(2) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(3) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(3) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(4) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(4) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(5) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(5) :hover {
-        background-color: yellow; }
-    nav ul li:nth-child(6) {
-      padding: 10px 10px 10px 0px; }
-      nav ul li:nth-child(6) :hover {
-        background-color: yellow; }
+  float:left;
+  border-right: 2px solid grey; */
+/* This is for the jquery styling*/
+#navbar {
+  margin-left: 0%;
+  padding: 0;
+  list-style: none; }
 
+/* make the LI display inline */
+/* it's position relative so that position absolute */
+/* can be used in submenu */
+#navbarli {
+  float: left;
+  display: block;
+  width: 100px;
+  background: #aaaacc;
+  position: relative;
+  z-index: 500;
+  margin: 0 1px; }
+
+/* this is the parent menu */
+#nav li a {
+  display: block;
+  padding: 8px 5px 0 5px;
+  font-weight: 700;
+  height: 23px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  color: #333; }
+
+#nav li a:hover {
+  color: #fff; }
+
+/* submenu, it's hidden by default */
+#nav ul {
+  position: absolute;
+  left: 0px;
+  display: none;
+  margin: 0 0 0 -1px;
+  padding: 0;
+  list-style: none; }
+
+#nav ul li {
+  width: 100px;
+  float: left;
+  border-top: 1px solid #fff; }
+
+/* display block will make the link fill the whole area of LI */
+#nav ul a {
+  display: block;
+  height: 15px;
+  padding: 8px 5px;
+  color: #666; }
+
+#nav ul a:hover {
+  text-decoration: underline; }
+
+/* My old styling for the nav bar
+    li
+    {
+
+
+      a
+      {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+      }
+
+    }
+    li:nth-child(1)
+    {
+      padding: 10px 10px 10px 0px;
+
+
+      :hover
+      {
+
+        background-color:yellow;
+      }
+
+    }
+        li:nth-child(2)
+    {
+      padding: 10px 10px 10px 0px;
+
+
+      :hover
+      {
+
+        background-color:yellow;
+      }
+
+    }
+        li:nth-child(3)
+    {
+      padding: 10px 10px 10px 0px;
+
+
+      :hover
+      {
+
+        background-color:yellow;
+      }
+
+    }
+        li:nth-child(4)
+    {
+      padding: 10px 10px 10px 0px;
+
+
+      :hover
+      {
+
+        background-color:yellow;
+      }
+
+    }
+        li:nth-child(5)
+    {
+      padding: 10px 10px 10px 0px;
+
+
+      :hover
+      {
+
+        background-color:yellow;
+      }
+
+    }
+        li:nth-child(6)
+    {
+      padding: 10px 10px 10px 0px;
+
+
+      :hover
+      {
+
+        background-color:yellow;
+      }
+
+    }
+
+  }
+
+
+
+} */
 .board {
   float: right;
   height: 780px;
@@ -372,7 +495,7 @@ nav {
       float: left; }
 
 body {
-  width: 960px; }
+  width: 1200px; }
 
 .clear {
   clear: both; }

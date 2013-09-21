@@ -4,38 +4,90 @@
     <meta charset='utf-8'>
     <title>Nash-o-poly</title>
     <link href='../css/normalize.css' rel='stylesheet'>
-    <link href='../css/style.css' rel='stylesheet'>
+    <!-- references jquery? -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen">
+    <!-- Start of jquery nav bar -->
+<script src="../jquery-1.10.2.min.js"></script>
+<script>
+
+  $(document).ready(function () {
+
+    // jQuery calls look like $('# ') where the text inside is the id
+    $('#navbar li').hover(
+      function () {
+        //show its submenu
+        $('ul', this).stop().slideDown(100);
+        this.value('class', 'selected');
+
+      },
+      function () {
+        //hide its submenu
+        $('ul', this).stop().slideUp(100);
+        this.value('class', 'unselected');
+      }
+    );
+
+  });
+</script>
+<!-- End of script for Jquery nav bar -->
+
+
   </head>
   <body>
     <header>
-      <img src='../images/nashville_wall_decal.jpg'>
+      <img src='../images/nashopolylogo.jpg' id="logo">
       </header>
-      <nav>
-        <ul>
+
+      <nav id="wrapper">
+        <ul id="navbar">
           <li>
             <a href='index.html'>Home</a>
+            <ul style="display: none;">
+            <li><a href="#"><image src="../images/nashville_wall_decal.jpg" width="100px"></a></li>
+         </ul>
+
           </li>
           <li>
             <a href='gameboard.html'>Gameboard</a>
+            <ul style="display: none;">
+            <li><a href="#">This will be an image</a></li>
+         </ul>
+         <div class="clear"></div>
           </li>
           <li>
             <a href='pieces.html'>Pieces</a>
+            <ul style="display: none;">
+            <li><a href="#">This will be an image</a></li>
+         </ul>
+         <div class="clear"></div>
           </li>
           <li>
             <a href='cards.html'>Cards</a>
+            <ul style="display: none;">
+            <li><a href="#">This will be an image</a></li>
+         </ul>
+         <div class="clear"></div>
           </li>
           <li>
             <a href='faq.html'>FAQ</a>
+            <ul style="display: none;">
+            <li><a href="#">This will be an image</a></li>
+         </ul>
+         <div class="clear"></div>
           </li>
           <li>
             <a href='contactus.html'>Contact Us</a>
+            <ul style="display: none;">
+            <li><a href="#">This will be an image</a></li>
+         </ul>
           </li>
         </ul>
+        <div class="clear"></div>
       </nav>
 
 
     <div class='board'>
-    <p>hello</p>
+
       <div class='insideboard'>
 
 
