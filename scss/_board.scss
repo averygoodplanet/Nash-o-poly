@@ -94,10 +94,16 @@
     @include bar_fn_vertical($board_purple, $var2X);
   }
 
-  .bar_purple_horizontal
+  .bar_purple_horizontal_fr
   {
     @include border_box_fn;
     @include bar_fn_horizontal($board_purple, $varX, $var2X, right);
+  }
+
+  .bar_purple_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_purple, $varX, $var2X, left);
   }
 
   .bar_orange_vertical
@@ -106,10 +112,34 @@
     @include bar_fn_vertical($board_orange, $var2X);
   }
 
+  .bar_orange_horizontal_fr
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_orange, $varX, $var2X, right);
+  }
+
+  .bar_orange_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_orange, $varX, $var2X, left);
+  }
+
   .bar_red_vertical
   {
     @include border_box_fn;
     @include bar_fn_vertical($board_red, $var2X);
+  }
+
+  .bar_red_horizontal_fr
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_red, $varX, $var2X, right);
+  }
+
+  .bar_red_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_red, $varX, $var2X, left);
   }
 
   .bar_yellow_vertical
@@ -118,10 +148,34 @@
     @include bar_fn_vertical($board_yellow, $var2X);
   }
 
+  .bar_yellow_horizontal_fr
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_yellow, $varX, $var2X, right);
+  }
+
+  .bar_yellow_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_yellow, $varX, $var2X, left);
+  }
+
   .bar_green_vertical
   {
     @include border_box_fn;
     @include bar_fn_vertical($board_green, $var2X);
+  }
+
+  .bar_green_horizontal_fr
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_green, $varX, $var2X, right);
+  }
+
+  .bar_green_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_green, $varX, $var2X, left);
   }
 
   .bar_darkblue_vertical
@@ -130,16 +184,76 @@
     @include bar_fn_vertical($board_darkblue, $var2X);
   }
 
+  .bar_darkblue_horizontal_fr
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_darkblue, $varX, $var2X, right);
+  }
+
+  .bar_darkblue_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_darkblue, $varX, $var2X, left);
+  }
+
   .bar_brown_vertical
   {
     @include border_box_fn;
     @include bar_fn_vertical($board_brown, $var2X);
   }
 
+  .bar_brown_horizontal_fr
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_brown, $varX, $var2X, right);
+  }
+
+  .bar_brown_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_brown, $varX, $var2X, left);
+  }
+
   .bar_lightblue_vertical
   {
     @include border_box_fn;
     @include bar_fn_vertical($board_lightblue, $var2X);
+  }
+
+  .bar_lightblue_horizontal_fr
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_lightblue, $varX, $var2X, right);
+  }
+
+  .bar_lightblue_horizontal_fl
+  {
+    @include border_box_fn;
+    @include bar_fn_horizontal($board_lightblue, $varX, $var2X, left);
+  }
+
+  p.name
+  {
+    font-size: 9px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  p.price
+  {
+    margin-top: -5px;
+    margin-left: 11px;
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
+  img.tile_image
+  {
+    border-radius: 3px;
+    width: 43px;
+    padding:0 auto;
+    margin-top: -5px;
+    margin-left: 7px;
   }
 
   .insideboard
