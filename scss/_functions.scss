@@ -18,7 +18,7 @@
   float: $float;
 }
 
-@mixin rotate_tile_fn(  $degrees  ) {
+@mixin rotate_fn(  $degrees  ) {
   -webkit-transform: rotate(#{$degrees}deg);
   -moz-transform: rotate(#{$degrees}deg);
   -ms-transform: rotate(#{$degrees}deg);

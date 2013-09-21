@@ -73,7 +73,33 @@
 
   .rotate180
   {
-    @include rotate_tile_fn(180);
+    @include rotate_fn(180);
+  }
+
+  .lcolname
+  {
+    @include rotate_fn(90);
+    position: absolute;
+    right: 15px;
+    top: 5px;
+  }
+
+  #coco
+  {
+    top: 13px;
+  }
+
+  #gabby
+  {
+    top: 8px;
+    right: 20px;
+    width: 34px;
+  }
+
+  #baja
+  {
+    top: 15px;
+    right: 10px;
   }
 
   .vertical_tile
