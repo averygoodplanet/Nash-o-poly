@@ -211,6 +211,10 @@ nav {
     height: 120px;
     width: 120px;
     float: left; }
+  .board .rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg); }
   .board .vertical_tile {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;

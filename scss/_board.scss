@@ -71,6 +71,11 @@
     float: left;
   }
 
+  .rotate180
+  {
+    @include rotate_tile_fn(180);
+  }
+
   .vertical_tile
   {
     @include border_box_fn;
