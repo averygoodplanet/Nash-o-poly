@@ -95,14 +95,22 @@ nav {
     border: 1px solid black;
     height: 120px;
     width: 60px;
-    float: left; }
+    float: left;
+    position: relative;
+    /* positioned .vertical_tile
+    relative, so that can absolute
+    position price in tile to bottom */ }
   .board .horizontal_tile {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid black;
     height: 60px;
-    width: 120px; }
+    width: 120px;
+    position: relative;
+    /* positioned .vertical_tile
+    relative, so that can absolute
+    position price in tile to bottom */ }
   .board .bar_purple_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -307,11 +315,29 @@ nav {
     font-size: 9px;
     padding-left: 3px;
     padding-right: 3px; }
+    .board p.name#saucer {
+      padding-left: 11px; }
+    .board p.name#tootsies {
+      padding-left: 7px; }
+    .board p.name#robert {
+      padding-left: 9px; }
+    .board p.name#printer {
+      padding-left: 10px; }
+    .board p.name#sperry {
+      padding-left: 9px; }
+    .board p.name#palm {
+      padding-left: 6px; }
+    .board p.name#eastland {
+      padding-left: 8px; }
+    .board p.name#marche {
+      padding-left: 10px; }
   .board p.price {
     margin-top: -5px;
     margin-left: 11px;
     margin-bottom: 0px;
-    font-size: 12px; }
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px; }
   .board img.tile_image {
     border-radius: 3px;
     height: 43px;
@@ -319,6 +345,10 @@ nav {
     padding: 0 auto;
     margin-top: -5px;
     margin-left: 7px; }
+    .board img.tile_image#rob_image {
+      height: 33px; }
+    .board img.tile_image#printer_image {
+      height: 25px; }
   .board .insideboard {
     /* inside board is 540 x 540 where
     outside board is 780 X 780 */

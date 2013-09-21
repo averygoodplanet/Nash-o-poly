@@ -78,6 +78,10 @@
     height: $var2X;
     width: $varX;
     float: left;
+    position: relative;
+    /* positioned .vertical_tile
+    relative, so that can absolute
+    position price in tile to bottom */
   }
 
   .horizontal_tile
@@ -86,6 +90,10 @@
     border: 1px solid black;
     height: $varX;
     width: $var2X;
+    position: relative;
+    /* positioned .vertical_tile
+    relative, so that can absolute
+    position price in tile to bottom */
   }
 
   .bar_purple_vertical
@@ -237,6 +245,46 @@
     font-size: 9px;
     padding-left: 3px;
     padding-right: 3px;
+
+    &#saucer
+    {
+      padding-left: 11px;
+    }
+
+    &#tootsies
+    {
+      padding-left: 7px;
+    }
+
+    &#robert
+    {
+      padding-left: 9px;
+    }
+
+    &#printer
+    {
+      padding-left: 10px;
+    }
+
+    &#sperry
+    {
+      padding-left: 9px;
+    }
+
+    &#palm
+    {
+      padding-left: 6px;
+    }
+
+    &#eastland
+    {
+      padding-left: 8px;
+    }
+
+    &#marche
+    {
+      padding-left: 10px;
+    }
   }
 
   p.price
@@ -245,6 +293,8 @@
     margin-left: 11px;
     margin-bottom: 0px;
     font-size: 12px;
+    position: absolute;
+    bottom: 0px;
   }
 
   img.tile_image
@@ -255,6 +305,16 @@
     padding:0 auto;
     margin-top: -5px;
     margin-left: 7px;
+
+    &#rob_image
+    {
+      height: 33px;
+    }
+
+    &#printer_image
+    {
+      height: 25px;
+    }
   }
 
   .insideboard
