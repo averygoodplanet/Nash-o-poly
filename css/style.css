@@ -303,6 +303,21 @@ nav {
     width: 24px;
     border: 1px solid black;
     float: left; }
+  .board p.name {
+    font-size: 9px;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .board p.price {
+    margin-top: -5px;
+    margin-left: 11px;
+    margin-bottom: 0px;
+    font-size: 12px; }
+  .board img.tile_image {
+    border-radius: 3px;
+    width: 43px;
+    padding: 0 auto;
+    margin-top: -5px;
+    margin-left: 7px; }
   .board .insideboard {
     /* inside board is 540 x 540 where
     outside board is 780 X 780 */
