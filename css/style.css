@@ -110,15 +110,24 @@ nav {
     background-color: #c40774;
     height: 24px;
     border: 1px solid black; }
-  .board .bar_purple_horizontal {
+  .board .bar_purple_horizontal_fr {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #c40774;
-    height: 60px;
+    height: 58px;
     width: 24px;
     border: 1px solid black;
     float: right; }
+  .board .bar_purple_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #c40774;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .bar_orange_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -126,6 +135,24 @@ nav {
     background-color: #e38800;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_orange_horizontal_fr {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e38800;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
+  .board .bar_orange_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e38800;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .bar_red_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -133,6 +160,24 @@ nav {
     background-color: #cd001a;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_red_horizontal_fr {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #cd001a;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
+  .board .bar_red_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #cd001a;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .bar_yellow_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -140,6 +185,24 @@ nav {
     background-color: #e4ea00;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_yellow_horizontal_fr {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e4ea00;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
+  .board .bar_yellow_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e4ea00;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .bar_green_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -147,6 +210,24 @@ nav {
     background-color: #1aa03b;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_green_horizontal_fr {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #1aa03b;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
+  .board .bar_green_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #1aa03b;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .bar_darkblue_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -154,6 +235,24 @@ nav {
     background-color: #304ea2;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_darkblue_horizontal_fr {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #304ea2;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
+  .board .bar_darkblue_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #304ea2;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .bar_brown_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -161,6 +260,24 @@ nav {
     background-color: #75390b;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_brown_horizontal_fr {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #75390b;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
+  .board .bar_brown_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #75390b;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .bar_lightblue_vertical {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -168,6 +285,24 @@ nav {
     background-color: #83c6f0;
     height: 24px;
     border: 1px solid black; }
+  .board .bar_lightblue_horizontal_fr {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #83c6f0;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: right; }
+  .board .bar_lightblue_horizontal_fl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #83c6f0;
+    height: 58px;
+    width: 24px;
+    border: 1px solid black;
+    float: left; }
   .board .insideboard {
     /* inside board is 540 x 540 where
     outside board is 780 X 780 */

@@ -12,7 +12,7 @@
 
 @mixin bar_fn_horizontal($color, $varX, $var2X, $float) {
   background-color: $color;
-  height: $varX;
+  height: $varX - 2px;
   width: 0.2 * $var2X;
   border: 1px solid black;
   float: $float;
