@@ -33,38 +33,38 @@
     .board
       .row#top
         .corner
-        .vertical_tile
+        .vertical_tile.rotate180
           .bar_purple_vertical
           %p.name Wild Horse Saloon
           %img.tile_image{src:'images/left/wildhorse.png'}
           %p.price $100
-        .vertical_tile
-        .vertical_tile
+        .vertical_tile.rotate180
+        .vertical_tile.rotate180
           .bar_purple_vertical
           %p.name Jack's BBQ
           %img.tile_image{src:'images/left/jacks.png'}
           %p.price $100
-        .vertical_tile
+        .vertical_tile.rotate180
           .bar_purple_vertical
-          %p.name Flying Saucer
+          %p.name#saucer Flying Saucer
           %img.tile_image{src:'images/left/flying_saucer.png'}
           %p.price $100
-        .vertical_tile
-        .vertical_tile
+        .vertical_tile.rotate180
+        .vertical_tile.rotate180
           .bar_orange_vertical
-          %p.name Tootsies
+          %p.name#tootsies Tootsies
           %img.tile_image{src:'images/left/tootsies.png'}
           %p.price $100
-        .vertical_tile
-        .vertical_tile
+        .vertical_tile.rotate180
+        .vertical_tile.rotate180
           .bar_orange_vertical
-          %p.name Robert's Western World
-          %img.tile_image{src:'images/left/Roberts.png'}
+          %p.name#robert Robert's Western World
+          %img.tile_image#rob_image{src:'images/left/Roberts.png'}
           %p.price $100
-        .vertical_tile
+        .vertical_tile.rotate180
           .bar_orange_vertical
-          %p.name Printer's Alley
-          %img.tile_image{src:'images/left/printers_alley.png'}
+          %p.name#printer Printer's Alley
+          %img.tile_image#printer_image{src:'images/left/printers_alley.png'}
           %p.price $100
         .corner
       #across_columns
@@ -137,31 +137,31 @@
         .corner
         .vertical_tile
           .bar_darkblue_vertical
-          %p.name Sperry's
+          %p.name#sperry Sperry's
           %img.tile_image{src:'images/right/sperrys.png'}
           %p.price $100
         .vertical_tile
         .vertical_tile
           .bar_darkblue_vertical
-          %p.name The Palm
+          %p.name#palm The Palm
           %img.tile_image{src:'images/right/palm.png'}
           %p.price $100
         .vertical_tile
         .vertical_tile
         .vertical_tile
           .bar_green_vertical
-          %p.name Eastland Cafe
+          %p.name#eastland Eastland Cafe
           %img.tile_image{src:'images/right/eastland_cafe.png'}
           %p.price $100
         .vertical_tile
         .vertical_tile
           .bar_green_vertical
-          %p.name Marche
+          %p.name#marche Marche
           %img.tile_image{src:'images/right/marche.png'}
           %p.price $100
         .vertical_tile
           .bar_green_vertical
-          %p.name Rosepepper's Cantina
+          %p.name Rosepepper Cantina
           %img.tile_image{src:'images/right/rosepepper.png'}
           %p.price $100
         .corner
