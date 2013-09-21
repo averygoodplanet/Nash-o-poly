@@ -463,6 +463,37 @@ nav {
     .board .insideboard p {
       width: 200px;
       float: left; }
+    .board .insideboard .pieces #bbq {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #bbq #t_bbq {
+        background-color: red;
+        width: 125px;
+        height: 257px;
+        position: absolute;
+        margin: 5px 0 6px 5px;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #bbq #t_bbq:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #bbq #t_bbq img {
+          margin: auto;
+          padding-right: 0;
+          width: 125px;
+          height: 79px; }
+      .board .insideboard .pieces #bbq #b_bbq {
+        background-color: green;
+        width: 125px;
+        height: 257px;
+        margin: 5px 0 6px 5px; }
+        .board .insideboard .pieces #bbq #b_bbq p {
+          width: 125px;
+          float: none;
+          text-align: center; }
+        .board .insideboard .pieces #bbq #b_bbq h3 {
+          text-align: center; }
 
 body {
   width: 1200px; }

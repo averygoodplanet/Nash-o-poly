@@ -265,10 +265,8 @@
     height: 540px;
     width: 540px;
     position: relative;
-  /* this needs to be changed when done with placement*/
-  background-color: blue;
-
-
+    /* this needs to be changed when done with placement*/
+    background-color: blue;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -279,14 +277,64 @@
         height:100px;
         float:left;
         padding-right: 20px;
-
       }
+
       p
       {
         width: 200px;
         float: left;
       }
 
+      .pieces /*This for stuff displayed on the pieces page */
+      {
 
-  }
+        #bbq
+        {
+          float: left;
+          position: relative;
+
+          #t_bbq
+          {
+            background-color: red;
+            width: 125px;
+            height: 257px;
+            position: absolute;
+            margin: 5px 0 6px 5px;
+            -webkit-transition: opacity .25s ease-in-out;
+            -moz-transition: opacity .25s ease-in-out;
+            -o-transition: opacity .25s ease-in-out;
+            transition: opacity .25s ease-in-out;
+            &:hover
+            {
+              opacity: 0;
+            }
+            img
+            {
+              margin: auto;
+              padding-right: 0;
+              width: 125px;
+              height: 79px;
+            }
+          }
+
+          #b_bbq
+          {
+            background-color:green;
+            width: 125px;
+            height: 257px;
+            margin: 5px 0 6px 5px;
+            p
+            {
+              width: 125px;
+              float: none;
+              text-align: center;
+            }
+            h3
+            {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
 }
