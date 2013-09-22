@@ -35,16 +35,6 @@
     width: $var13X;
   }
 
-  .row#top
-  { //Example of styling different tiles within a row
-    // background-color: red;
-
-    div:nth-child(3)
-    {
-      background-color: green;
-    }
-  }
-
   #left
   {
     @include border_box_fn();
