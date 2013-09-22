@@ -569,7 +569,7 @@ nav {
         width: 125px;
         height: 245px;
         position: absolute;
-        margin: 5px 0 6px 5px;
+        margin: 5px 0 5px 5px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -585,10 +585,8 @@ nav {
         background-color: #cce4c8;
         width: 125px;
         height: 245px;
-        margin: 5px 0 6px 5px; }
+        margin: 5px 0 5px 5px; }
         .board .insideboard .pieces #bbq #b_bbq p {
-          width: 125px;
-          float: none;
           text-align: center;
           font-weight: normal;
           margin-top: 8px;
@@ -601,9 +599,8 @@ nav {
           text-shadow: 1px 1px #757575; }
         .board .insideboard .pieces #bbq #b_bbq img {
           display: block;
-          margin: auto;
-          border-radius: 5px;
-          margin-top: 3px; }
+          margin: 3px auto auto;
+          border-radius: 5px; }
 
 body {
   width: 1200px; }

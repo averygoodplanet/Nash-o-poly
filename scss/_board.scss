@@ -443,73 +443,47 @@
       {
         h2
         {
-          margin-top: 3px;
-          margin-bottom: 0;
-          text-align: center;
+          @include pieces_h2;
         }
         #bbq
         {
-          float: left;
-          position: relative;
+          @include piece_containing_div;
 
           #t_bbq
           {
-            background-color: $board_background_color;
-            width: 125px;
-            height: 245px;
-            position: absolute;
-            margin: 5px 0 6px 5px;
-            text-align: center;
-            -webkit-transition: opacity .25s ease-in-out;
-            -moz-transition: opacity .25s ease-in-out;
-            -o-transition: opacity .25s ease-in-out;
-            transition: opacity .25s ease-in-out;
+            @include piece_top_div;
             &:hover
             {
               opacity: 0;
             }
             img
             {
-              margin: 70px auto 0;
+              @include piece_top_img;
               // padding-right: 0; PARENT RESET
               // width: 125px;
               // height: 79px;
             }
             h3
             {
-              text-shadow: 1px 1px #757575;
+              @include piece_top_h3;
             }
           }
 
           #b_bbq
           {
-            background-color:$board_background_color;
-            width: 125px;
-            height: 245px;
-            margin: 5px 0 6px 5px;
+            @include piece_bottom_div;
             p
             {
-              width: 125px;
-              float: none;
-              text-align: center;
-              font-weight: normal;
-              margin-top: 8px;
-              margin-bottom: 0;
-              font-size: 15px;
+              @include piece_bottom_p;
             }
             h3
             {
-              text-align: center;
-              margin-top: 0;
-              margin-bottom: 0;
-              text-shadow: 1px 1px #757575;
+              @include piece_bottom_h3;
             }
             img
             {
-              display: block;
-              margin: auto;
-              border-radius: 5px;
-              margin-top: 3px;
+              @include piece_bottom_img;
+
             }
           }
         }
