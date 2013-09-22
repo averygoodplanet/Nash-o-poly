@@ -114,10 +114,31 @@
     width: 73px;
   }
 
+  .rcolname
+  {
+    @include rotate_fn(-90);
+    position: absolute;
+    left: 32px;
+    max-width: 4px;
+    top: 22px;
+  }
+
+  #noshville
+  {
+    top: 31px;
+  }
+
   .lprice
   {
     @include price_lcol();
     @include rotate_fn(90);
+  }
+
+  .rprice
+  {
+    @include rotate_fn(-90);
+    right: -5px;
+    bottom: 18px!important;
   }
 
   .limage

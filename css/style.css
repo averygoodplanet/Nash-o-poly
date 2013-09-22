@@ -237,6 +237,16 @@ nav {
     margin-top: 29px;
     margin-right: -13px;
     width: 73px; }
+  .board .rcolname {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    position: absolute;
+    left: 32px;
+    max-width: 4px;
+    top: 22px; }
+  .board #noshville {
+    top: 31px; }
   .board .lprice {
     position: absolute;
     left: -17px;
@@ -244,6 +254,12 @@ nav {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg); }
+  .board .rprice {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    right: -5px;
+    bottom: 18px !important; }
   .board .limage {
     -webkit-transform: rotate(90deg);
     position: absolute;
