@@ -806,6 +806,24 @@ nav #navbar li a {
     margin-bottom: 5px;
     width: 470px; }
 
+#contact {
+  /*Test*/
+  height: 540px;
+  width: 540px;
+  position: absolute; }
+  #contact h2 {
+    font-size: 31px;
+    text-align: center; }
+  #contact dt {
+    margin-left: 23px;
+    margin-top: 25px;
+    width: 470px; }
+  #contact dd {
+    margin-left: 66px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    width: 470px; }
+
 body {
   width: 1200px; }
 
