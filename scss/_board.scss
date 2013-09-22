@@ -418,337 +418,305 @@
     width: 540px;
     position: relative;
     /* this needs to be changed when done with placement*/
-    background-color: blue;
+    background-color: $board_background_color;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
-// ---WHY IS THIS NECESSARY?---
-      // img
-      // {
-      //   width:100px;
-      //   height:100px;
-      //   float:left;
-      //   padding-right: 20px;
-      // }
-
-      // p
-      // {
-      //   width: 200px;
-      //   float: left;
-      // }
-// ---END---
-
-      .pieces /*This for stuff displayed on the pieces page */
+    .pieces /*This for stuff displayed on the pieces page */
+    {
+      h2
       {
-        h2
+        @include piece_h2;
+      }
+      #bbq
+      {
+        @include piece_containing_div;
+        #t_bbq
         {
-          @include piece_h2;
-        }
-        #bbq
-        {
-          @include piece_containing_div;
-
-          #t_bbq
+          @include piece_top_div;
+          &:hover
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(70px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_top_hover;
           }
-
-          #b_bbq
+          img
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(15px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_top_img(70px);
+          }
+          h3
+          {
+            @include piece_top_h3;
           }
         }
-        #chicken
+        #b_bbq
         {
-          @include piece_containing_div;
-
-          #t_chicken
+          @include piece_bottom_div;
+          p
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(70px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_bottom_p(12px);
           }
-
-          #b_chicken
+          h3
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(12px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
           }
         }
-        #burger
+      }
+      #chicken
+      {
+        @include piece_containing_div;
+        #t_chicken
         {
-          @include piece_containing_div;
-
-          #t_burger
+          @include piece_top_div;
+          &:hover
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(70px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_top_hover;
           }
-
-          #b_burger
+          img
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(12px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_top_img(70px);
+          }
+          h3
+          {
+            @include piece_top_h3;
           }
         }
-      #growler
+        #b_chicken
         {
-          @include piece_containing_div;
-
-          #t_growler
+          @include piece_bottom_div;
+          p
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(20px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_bottom_p(12px);
           }
-
-          #b_growler
+          h3
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(12px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
           }
         }
-      #biscuits
+      }
+      #burger
+      {
+        @include piece_containing_div;
+        #t_burger
         {
-          @include piece_containing_div;
-
-          #t_biscuits
+          @include piece_top_div;
+          &:hover
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(20px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_top_hover;
           }
-
-          #b_biscuits
+          img
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(12px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_top_img(70px);
+          }
+          h3
+          {
+            @include piece_top_h3;
           }
         }
-      #pizza
+        #b_burger
         {
-          @include piece_containing_div;
-
-          #t_pizza
+          @include piece_bottom_div;
+          p
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(20px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_bottom_p(12px);
           }
-
-          #b_pizza
+          h3
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(12px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
           }
         }
-        #burrito
+      }
+    #growler
+      {
+        @include piece_containing_div;
+        #t_growler
         {
-          @include piece_containing_div;
-
-          #t_burrito
+          @include piece_top_div;
+          &:hover
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(20px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_top_hover;
           }
-
-          #b_burrito
+          img
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(12px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
           }
         }
-      #truck
+        #b_growler
         {
-          @include piece_containing_div;
-
-          #t_truck
+          @include piece_bottom_div;
+          p
           {
-            @include piece_top_div;
-            &:hover
-            {
-              @include piece_top_hover;
-            }
-            img
-            {
-              @include piece_top_img(66px);
-            }
-            h3
-            {
-              @include piece_top_h3;
-            }
+            @include piece_bottom_p(13px);
           }
-
-          #b_truck
+          h3
           {
-            @include piece_bottom_div;
-            p
-            {
-              @include piece_bottom_p(12px);
-            }
-            h3
-            {
-              @include piece_bottom_h3;
-            }
-            img
-            {
-              @include piece_bottom_img;
-            }
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    #biscuits
+      {
+        @include piece_containing_div;
+        #t_biscuits
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_biscuits
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(13px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    #pizza
+      {
+        @include piece_containing_div;
+        #t_pizza
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_pizza
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+      #burrito
+      {
+        @include piece_containing_div;
+        #t_burrito
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_burrito
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    #truck
+      {
+        @include piece_containing_div;
+        #t_truck
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(66px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_truck
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
           }
         }
       }
     }
+  }
 }

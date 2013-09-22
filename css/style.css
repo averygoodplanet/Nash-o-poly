@@ -553,23 +553,25 @@ nav {
     width: 540px;
     position: relative;
     /* this needs to be changed when done with placement*/
-    background-color: blue;
+    background-color: #cce4c8;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
     .board .insideboard .pieces h2 {
       margin-top: 3px;
       margin-bottom: 0;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Satisfy', cursive;
+      text-shadow: 1px 1px #757575; }
     .board .insideboard .pieces #bbq {
       float: left;
       position: relative; }
       .board .insideboard .pieces #bbq #t_bbq {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -584,14 +586,14 @@ nav {
       .board .insideboard .pieces #bbq #b_bbq {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #bbq #b_bbq p {
           text-align: center;
           font-weight: normal;
           margin-top: 8px;
           margin-bottom: 0;
-          font-size: 15px; }
+          font-size: 12px; }
         .board .insideboard .pieces #bbq #b_bbq h3 {
           text-align: center;
           margin-top: 0;
@@ -607,9 +609,9 @@ nav {
       .board .insideboard .pieces #chicken #t_chicken {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -624,8 +626,8 @@ nav {
       .board .insideboard .pieces #chicken #b_chicken {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #chicken #b_chicken p {
           text-align: center;
           font-weight: normal;
@@ -647,9 +649,9 @@ nav {
       .board .insideboard .pieces #burger #t_burger {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -664,8 +666,8 @@ nav {
       .board .insideboard .pieces #burger #b_burger {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #burger #b_burger p {
           text-align: center;
           font-weight: normal;
@@ -687,9 +689,9 @@ nav {
       .board .insideboard .pieces #growler #t_growler {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -704,14 +706,14 @@ nav {
       .board .insideboard .pieces #growler #b_growler {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #growler #b_growler p {
           text-align: center;
           font-weight: normal;
           margin-top: 8px;
           margin-bottom: 0;
-          font-size: 12px; }
+          font-size: 13px; }
         .board .insideboard .pieces #growler #b_growler h3 {
           text-align: center;
           margin-top: 0;
@@ -727,9 +729,9 @@ nav {
       .board .insideboard .pieces #biscuits #t_biscuits {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -744,14 +746,14 @@ nav {
       .board .insideboard .pieces #biscuits #b_biscuits {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #biscuits #b_biscuits p {
           text-align: center;
           font-weight: normal;
           margin-top: 8px;
           margin-bottom: 0;
-          font-size: 12px; }
+          font-size: 13px; }
         .board .insideboard .pieces #biscuits #b_biscuits h3 {
           text-align: center;
           margin-top: 0;
@@ -767,9 +769,9 @@ nav {
       .board .insideboard .pieces #pizza #t_pizza {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -784,8 +786,8 @@ nav {
       .board .insideboard .pieces #pizza #b_pizza {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #pizza #b_pizza p {
           text-align: center;
           font-weight: normal;
@@ -807,9 +809,9 @@ nav {
       .board .insideboard .pieces #burrito #t_burrito {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -824,8 +826,8 @@ nav {
       .board .insideboard .pieces #burrito #b_burrito {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #burrito #b_burrito p {
           text-align: center;
           font-weight: normal;
@@ -847,9 +849,9 @@ nav {
       .board .insideboard .pieces #truck #t_truck {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
+        height: 240px;
         position: absolute;
-        margin: 5px 0 5px 5px;
+        margin: 5px 0 5px 8px;
         text-align: center;
         -webkit-transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -864,8 +866,8 @@ nav {
       .board .insideboard .pieces #truck #b_truck {
         background-color: #cce4c8;
         width: 125px;
-        height: 245px;
-        margin: 5px 0 5px 5px; }
+        height: 240px;
+        margin: 5px 0 5px 8px; }
         .board .insideboard .pieces #truck #b_truck p {
           text-align: center;
           font-weight: normal;
