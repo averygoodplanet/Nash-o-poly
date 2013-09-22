@@ -790,10 +790,12 @@ nav #navbar li a {
 
 #faq {
   /*Test*/
-  background-color: gray;
-  height: 200px;
-  width: 200px;
+  height: 540px;
+  width: 540px;
   position: absolute; }
+  #faq h2 {
+    font-size: 31px;
+    text-align: center; }
 
 body {
   width: 1200px; }
