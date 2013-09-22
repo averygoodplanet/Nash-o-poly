@@ -788,6 +788,13 @@ nav #navbar li a {
           margin: 3px auto auto;
           border-radius: 5px; }
 
+#faq {
+  /*Test*/
+  background-color: gray;
+  height: 200px;
+  width: 200px;
+  position: absolute; }
+
 body {
   width: 1200px; }
 
