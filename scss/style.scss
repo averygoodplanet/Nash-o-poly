@@ -6,19 +6,19 @@
 @import 'board';
 @import 'faq';
 @import 'contact';
+@import 'footer';
 
 body
 {
   width:1200px;
+}
 
-
-
+.container
+{
+  width: 1100px;
 }
 
 .clear
 {
   clear:both;
-
-
-
 }

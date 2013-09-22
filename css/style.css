@@ -52,9 +52,10 @@ nav {
   border-radius: 5px; }
 
 /* Cards PAGE END */
-#logo {
-  width: 1000px;
-  height: 650px; }
+header {
+  margin-top: auto; }
+  header img {
+    margin-left: 50px; }
 
 nav #navbar {
   margin-left: 5%;
@@ -868,12 +869,29 @@ nav #navbar li a {
           display: block;
           margin: 3px auto auto;
           border-radius: 5px; }
+    .board .insideboard .index_page h1 {
+      text-transform: uppercase;
+      margin-bottom: 0;
+      letter-spacing: 5px;
+      color: #cd001a;
+      text-shadow: 1px 1px #757575;
+      font-size: 35px; }
+    .board .insideboard .index_page h2 {
+      margin-top: 5px;
+      text-shadow: 1px 1px #757575; }
+    .board .insideboard .index_page p {
+      font-weight: normal;
+      font-style: italic; }
+    .board .insideboard .index_page h1, .board .insideboard .index_page h2, .board .insideboard .index_page p {
+      text-align: center; }
 
 #faq {
   /*Test*/
   height: 540px;
   width: 540px;
   position: absolute; }
+  #faq a {
+    text-decoration: none; }
   #faq h2 {
     font-size: 31px;
     text-align: center; }
@@ -895,6 +913,8 @@ nav #navbar li a {
   #contact p {
     font-size: 20px;
     text-align: center; }
+  #contact a {
+    text-decoration: none; }
   #contact h2 {
     font-size: 31px;
     text-align: center; }
@@ -917,6 +937,9 @@ nav #navbar li a {
 
 body {
   width: 1200px; }
+
+.container {
+  width: 1100px; }
 
 .clear {
   clear: both; }
