@@ -35,16 +35,6 @@
     width: $var13X;
   }
 
-  .row#top
-  { //Example of styling different tiles within a row
-    // background-color: red;
-
-    div:nth-child(3)
-    {
-      background-color: green;
-    }
-  }
-
   #left
   {
     @include border_box_fn();
@@ -71,9 +61,106 @@
     float: left;
   }
 
+  .corner img
+  {
+    height: 118px;
+    width: 118px;
+
+    &#just_visiting
+    {
+      @include rotate_fn(180);
+    }
+
+    &#parking
+    {
+      @include rotate_fn(180);
+    }
+  }
+
   .rotate180
   {
-    @include rotate_tile_fn(180);
+    @include rotate_fn(180);
+  }
+
+  .lcolname
+  {
+    @include rotate_fn(90);
+    position: absolute;
+    right: 15px;
+    top: 5px;
+  }
+
+  #coco
+  {
+    top: 13px;
+  }
+
+  #gabby
+  {
+    top: 8px;
+    right: 20px;
+    width: 34px;
+  }
+
+  #baja
+  {
+    top: 15px;
+    right: 10px;
+  }
+
+  #opry
+  {
+    top: 12px;
+  }
+
+  #ryman
+  {
+    margin-top: 29px;
+    margin-right: -13px;
+    width: 73px;
+  }
+
+  .rcolname
+  {
+    @include rotate_fn(-90);
+    position: absolute;
+    left: 32px;
+    max-width: 4px;
+    top: 22px;
+  }
+
+  #noshville
+  {
+    top: 31px;
+  }
+
+  .lprice
+  {
+    @include price_lcol();
+    @include rotate_fn(90);
+  }
+
+  .rprice
+  {
+    @include rotate_fn(-90);
+    right: -5px;
+    bottom: 18px!important;
+  }
+
+  .limage
+  {
+    @include rotate_fn(90);
+    position: absolute;
+    left: 17px;
+    top: 11px;
+  }
+
+  .rimage
+  {
+    @include rotate_fn(-90);
+    position: absolute;
+    left: 48px;
+    top: 15px;
   }
 
   .vertical_tile
@@ -330,28 +417,306 @@
     height: 540px;
     width: 540px;
     position: relative;
-  /* this needs to be changed when done with placement*/
-  background-color: blue;
-
-
+    /* this needs to be changed when done with placement*/
+    background-color: $board_background_color;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
-      img
+    .pieces /*This for stuff displayed on the pieces page */
+    {
+      h2
       {
-        width:100px;
-        height:100px;
-        float:left;
-        padding-right: 20px;
-
+        @include piece_h2;
       }
-      p
+      #bbq
       {
-        width: 200px;
-        float: left;
+        @include piece_containing_div;
+        #t_bbq
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(70px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_bbq
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
       }
-
-
+      #chicken
+      {
+        @include piece_containing_div;
+        #t_chicken
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(70px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_chicken
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+      #burger
+      {
+        @include piece_containing_div;
+        #t_burger
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(70px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_burger
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    #growler
+      {
+        @include piece_containing_div;
+        #t_growler
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_growler
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(13px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    #biscuits
+      {
+        @include piece_containing_div;
+        #t_biscuits
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_biscuits
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(13px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    #pizza
+      {
+        @include piece_containing_div;
+        #t_pizza
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_pizza
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+      #burrito
+      {
+        @include piece_containing_div;
+        #t_burrito
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(20px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_burrito
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    #truck
+      {
+        @include piece_containing_div;
+        #t_truck
+        {
+          @include piece_top_div;
+          &:hover
+          {
+            @include piece_top_hover;
+          }
+          img
+          {
+            @include piece_top_img(66px);
+          }
+          h3
+          {
+            @include piece_top_h3;
+          }
+        }
+        #b_truck
+        {
+          @include piece_bottom_div;
+          p
+          {
+            @include piece_bottom_p(12px);
+          }
+          h3
+          {
+            @include piece_bottom_h3;
+          }
+          img
+          {
+            @include piece_bottom_img;
+          }
+        }
+      }
+    }
   }
 }
