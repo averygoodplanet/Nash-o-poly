@@ -597,8 +597,158 @@
             }
           }
         }
+      #biscuits
+        {
+          @include piece_containing_div;
 
+          #t_biscuits
+          {
+            @include piece_top_div;
+            &:hover
+            {
+              @include piece_top_hover;
+            }
+            img
+            {
+              @include piece_top_img(20px);
+            }
+            h3
+            {
+              @include piece_top_h3;
+            }
+          }
 
+          #b_biscuits
+          {
+            @include piece_bottom_div;
+            p
+            {
+              @include piece_bottom_p(12px);
+            }
+            h3
+            {
+              @include piece_bottom_h3;
+            }
+            img
+            {
+              @include piece_bottom_img;
+            }
+          }
+        }
+      #pizza
+        {
+          @include piece_containing_div;
+
+          #t_pizza
+          {
+            @include piece_top_div;
+            &:hover
+            {
+              @include piece_top_hover;
+            }
+            img
+            {
+              @include piece_top_img(20px);
+            }
+            h3
+            {
+              @include piece_top_h3;
+            }
+          }
+
+          #b_pizza
+          {
+            @include piece_bottom_div;
+            p
+            {
+              @include piece_bottom_p(12px);
+            }
+            h3
+            {
+              @include piece_bottom_h3;
+            }
+            img
+            {
+              @include piece_bottom_img;
+            }
+          }
+        }
+        #burrito
+        {
+          @include piece_containing_div;
+
+          #t_burrito
+          {
+            @include piece_top_div;
+            &:hover
+            {
+              @include piece_top_hover;
+            }
+            img
+            {
+              @include piece_top_img(20px);
+            }
+            h3
+            {
+              @include piece_top_h3;
+            }
+          }
+
+          #b_burrito
+          {
+            @include piece_bottom_div;
+            p
+            {
+              @include piece_bottom_p(12px);
+            }
+            h3
+            {
+              @include piece_bottom_h3;
+            }
+            img
+            {
+              @include piece_bottom_img;
+            }
+          }
+        }
+      #truck
+        {
+          @include piece_containing_div;
+
+          #t_truck
+          {
+            @include piece_top_div;
+            &:hover
+            {
+              @include piece_top_hover;
+            }
+            img
+            {
+              @include piece_top_img(66px);
+            }
+            h3
+            {
+              @include piece_top_h3;
+            }
+          }
+
+          #b_truck
+          {
+            @include piece_bottom_div;
+            p
+            {
+              @include piece_bottom_p(12px);
+            }
+            h3
+            {
+              @include piece_bottom_h3;
+            }
+            img
+            {
+              @include piece_bottom_img;
+            }
+          }
+        }
       }
     }
 }

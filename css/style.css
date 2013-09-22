@@ -721,6 +721,166 @@ nav {
           display: block;
           margin: 3px auto auto;
           border-radius: 5px; }
+    .board .insideboard .pieces #biscuits {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #biscuits #t_biscuits {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        position: absolute;
+        margin: 5px 0 5px 5px;
+        text-align: center;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #biscuits #t_biscuits:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #biscuits #t_biscuits img {
+          margin: 20px auto 0; }
+        .board .insideboard .pieces #biscuits #t_biscuits h3 {
+          text-shadow: 1px 1px #757575; }
+      .board .insideboard .pieces #biscuits #b_biscuits {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        margin: 5px 0 5px 5px; }
+        .board .insideboard .pieces #biscuits #b_biscuits p {
+          text-align: center;
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 12px; }
+        .board .insideboard .pieces #biscuits #b_biscuits h3 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
+        .board .insideboard .pieces #biscuits #b_biscuits img {
+          display: block;
+          margin: 3px auto auto;
+          border-radius: 5px; }
+    .board .insideboard .pieces #pizza {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #pizza #t_pizza {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        position: absolute;
+        margin: 5px 0 5px 5px;
+        text-align: center;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #pizza #t_pizza:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #pizza #t_pizza img {
+          margin: 20px auto 0; }
+        .board .insideboard .pieces #pizza #t_pizza h3 {
+          text-shadow: 1px 1px #757575; }
+      .board .insideboard .pieces #pizza #b_pizza {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        margin: 5px 0 5px 5px; }
+        .board .insideboard .pieces #pizza #b_pizza p {
+          text-align: center;
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 12px; }
+        .board .insideboard .pieces #pizza #b_pizza h3 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
+        .board .insideboard .pieces #pizza #b_pizza img {
+          display: block;
+          margin: 3px auto auto;
+          border-radius: 5px; }
+    .board .insideboard .pieces #burrito {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #burrito #t_burrito {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        position: absolute;
+        margin: 5px 0 5px 5px;
+        text-align: center;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #burrito #t_burrito:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #burrito #t_burrito img {
+          margin: 20px auto 0; }
+        .board .insideboard .pieces #burrito #t_burrito h3 {
+          text-shadow: 1px 1px #757575; }
+      .board .insideboard .pieces #burrito #b_burrito {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        margin: 5px 0 5px 5px; }
+        .board .insideboard .pieces #burrito #b_burrito p {
+          text-align: center;
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 12px; }
+        .board .insideboard .pieces #burrito #b_burrito h3 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
+        .board .insideboard .pieces #burrito #b_burrito img {
+          display: block;
+          margin: 3px auto auto;
+          border-radius: 5px; }
+    .board .insideboard .pieces #truck {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #truck #t_truck {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        position: absolute;
+        margin: 5px 0 5px 5px;
+        text-align: center;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #truck #t_truck:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #truck #t_truck img {
+          margin: 66px auto 0; }
+        .board .insideboard .pieces #truck #t_truck h3 {
+          text-shadow: 1px 1px #757575; }
+      .board .insideboard .pieces #truck #b_truck {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        margin: 5px 0 5px 5px; }
+        .board .insideboard .pieces #truck #b_truck p {
+          text-align: center;
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 12px; }
+        .board .insideboard .pieces #truck #b_truck h3 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
+        .board .insideboard .pieces #truck #b_truck img {
+          display: block;
+          margin: 3px auto auto;
+          border-radius: 5px; }
 
 body {
   width: 1200px; }
