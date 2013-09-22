@@ -411,28 +411,84 @@
     height: 540px;
     width: 540px;
     position: relative;
-  /* this needs to be changed when done with placement*/
-  background-color: blue;
-
-
+    /* this needs to be changed when done with placement*/
+    background-color: blue;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
-      img
+// ---WHY IS THIS NECESSARY?---
+      // img
+      // {
+      //   width:100px;
+      //   height:100px;
+      //   float:left;
+      //   padding-right: 20px;
+      // }
+
+      // p
+      // {
+      //   width: 200px;
+      //   float: left;
+      // }
+// ---END---
+
+      .pieces /*This for stuff displayed on the pieces page */
       {
-        width:100px;
-        height:100px;
-        float:left;
-        padding-right: 20px;
 
+        #bbq
+        {
+          float: left;
+          position: relative;
+
+          #t_bbq
+          {
+            background-color: red;
+            width: 125px;
+            height: 257px;
+            position: absolute;
+            margin: 5px 0 6px 5px;
+            text-align: center;
+            -webkit-transition: opacity .25s ease-in-out;
+            -moz-transition: opacity .25s ease-in-out;
+            -o-transition: opacity .25s ease-in-out;
+            transition: opacity .25s ease-in-out;
+            &:hover
+            {
+              opacity: 0;
+            }
+            img
+            {
+              margin: 70px auto 0;
+              // padding-right: 0; PARENT RESET
+              // width: 125px;
+              // height: 79px;
+            }
+          }
+
+          #b_bbq
+          {
+            background-color:green;
+            // width: 125px;
+            // height: 257px;
+            margin: 5px 0 6px 5px;
+            p
+            {
+              width: 125px;
+              float: none;
+              text-align: center;
+              font-weight: normal;
+            }
+            h3
+            {
+              text-align: center;
+            }
+            img
+            {
+              margin: auto;
+            }
+          }
+        }
       }
-      p
-      {
-        width: 200px;
-        float: left;
-      }
-
-
-  }
+    }
 }
