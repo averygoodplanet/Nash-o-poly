@@ -852,6 +852,8 @@ nav #navbar li a {
   height: 540px;
   width: 540px;
   position: absolute; }
+  #faq a {
+    text-decoration: none; }
   #faq h2 {
     font-size: 31px;
     text-align: center; }
@@ -870,6 +872,8 @@ nav #navbar li a {
   height: 540px;
   width: 540px;
   position: absolute; }
+  #contact a {
+    text-decoration: none; }
   #contact h2 {
     font-size: 31px;
     text-align: center; }
