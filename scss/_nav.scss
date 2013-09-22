@@ -5,6 +5,7 @@ nav{
     margin-left: 5%;
     padding:0;
     list-style:none;
+
     position: relative;
   }
 
@@ -21,17 +22,18 @@ nav{
   #navbar li:nth-child(2)
   {
     position: absolute;
-    top: 30px;
-    left:60px;
+    top: 72px;
+    left:0px;
     z-index:2;
     display: inline;
+
   }
 
     #navbar li:nth-child(3)
   {
     position: absolute;
-    top: 8993px;
-    left:90px;
+    top: 145px;
+    left:0px;
     z-index:3;
     display: inline;
 
@@ -40,7 +42,7 @@ nav{
     #navbar li:nth-child(4)
   {
     position: absolute;
-    top: 0px;
+    top: 215px;
     left:0px;
     z-index:4;
     display: inline;
@@ -50,18 +52,18 @@ nav{
     #navbar li:nth-child(5)
   {
     position: absolute;
-    top: 0px;
+    top: 287px;
     left:0px;
     z-index:5;
-    display: inline;
+
   }
 
       #navbar li:nth-child(6)
   {
     position: absolute;
-    top: 0px;
+    top: 360px;
     left:0px;
-    z-index:6px;
+    z-index:6;
     display: inline;
   }
 
