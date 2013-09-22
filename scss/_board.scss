@@ -35,16 +35,6 @@
     width: $var13X;
   }
 
-  .row#top
-  { //Example of styling different tiles within a row
-    // background-color: red;
-
-    div:nth-child(3)
-    {
-      background-color: green;
-    }
-  }
-
   #left
   {
     @include border_box_fn();
@@ -69,6 +59,22 @@
     height: $var2X;
     width: $var2X;
     float: left;
+  }
+
+  .corner img
+  {
+    height: 118px;
+    width: 118px;
+
+    &#just_visiting
+    {
+      @include rotate_fn(180);
+    }
+
+    &#parking
+    {
+      @include rotate_fn(180);
+    }
   }
 
   .rotate180
@@ -143,10 +149,18 @@
 
   .limage
   {
-    -webkit-transform: rotate(90deg);
+    @include rotate_fn(90);
     position: absolute;
     left: 17px;
     top: 11px;
+  }
+
+  .rimage
+  {
+    @include rotate_fn(-90);
+    position: absolute;
+    left: 48px;
+    top: 15px;
   }
 
   .vertical_tile

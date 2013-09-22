@@ -189,8 +189,6 @@ nav {
   .board .row {
     height: 120px;
     width: 780px; }
-  .board .row#top div:nth-child(3) {
-    background-color: green; }
   .board #left {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -211,6 +209,17 @@ nav {
     height: 120px;
     width: 120px;
     float: left; }
+  .board .corner img {
+    height: 118px;
+    width: 118px; }
+    .board .corner img#just_visiting {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg); }
+    .board .corner img#parking {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg); }
   .board .rotate180 {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -262,9 +271,18 @@ nav {
     bottom: 18px !important; }
   .board .limage {
     -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     position: absolute;
     left: 17px;
     top: 11px; }
+  .board .rimage {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    position: absolute;
+    left: 48px;
+    top: 15px; }
   .board .vertical_tile {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
