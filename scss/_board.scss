@@ -143,10 +143,18 @@
 
   .limage
   {
-    -webkit-transform: rotate(90deg);
+    @include rotate_fn(90);
     position: absolute;
     left: 17px;
     top: 11px;
+  }
+
+  .rimage
+  {
+    @include rotate_fn(-90);
+    position: absolute;
+    left: 48px;
+    top: 15px;
   }
 
   .vertical_tile

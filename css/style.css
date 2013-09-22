@@ -262,9 +262,18 @@ nav {
     bottom: 18px !important; }
   .board .limage {
     -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     position: absolute;
     left: 17px;
     top: 11px; }
+  .board .rimage {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    position: absolute;
+    left: 48px;
+    top: 15px; }
   .board .vertical_tile {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
