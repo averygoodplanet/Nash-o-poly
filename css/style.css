@@ -539,13 +539,17 @@ nav {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+    .board .insideboard .pieces h2 {
+      margin-top: 3px;
+      margin-bottom: 0;
+      text-align: center; }
     .board .insideboard .pieces #bbq {
       float: left;
       position: relative; }
       .board .insideboard .pieces #bbq #t_bbq {
-        background-color: red;
+        background-color: #cce4c8;
         width: 125px;
-        height: 257px;
+        height: 245px;
         position: absolute;
         margin: 5px 0 6px 5px;
         text-align: center;
@@ -557,18 +561,31 @@ nav {
           opacity: 0; }
         .board .insideboard .pieces #bbq #t_bbq img {
           margin: 70px auto 0; }
+        .board .insideboard .pieces #bbq #t_bbq h3 {
+          text-shadow: 1px 1px #757575; }
       .board .insideboard .pieces #bbq #b_bbq {
-        background-color: green;
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
         margin: 5px 0 6px 5px; }
         .board .insideboard .pieces #bbq #b_bbq p {
           width: 125px;
           float: none;
           text-align: center;
-          font-weight: normal; }
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 15px; }
         .board .insideboard .pieces #bbq #b_bbq h3 {
-          text-align: center; }
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
         .board .insideboard .pieces #bbq #b_bbq img {
-          margin: auto; }
+          display: block;
+          margin: auto;
+          border-radius: 5px;
+          margin-top: 3px; }
 
 body {
   width: 1200px; }
