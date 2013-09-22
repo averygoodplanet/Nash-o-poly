@@ -231,6 +231,19 @@ nav {
   .board #baja {
     top: 15px;
     right: 10px; }
+  .board #opry {
+    top: 12px; }
+  .board #ryman {
+    margin-top: 29px;
+    margin-right: -13px;
+    width: 73px; }
+  .board .lprice {
+    position: absolute;
+    left: -17px;
+    bottom: 22px !important;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg); }
   .board .vertical_tile {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;

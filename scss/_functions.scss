@@ -23,3 +23,9 @@
   -moz-transform: rotate(#{$degrees}deg);
   -ms-transform: rotate(#{$degrees}deg);
 }
+
+@mixin price_lcol() {
+  position: absolute;
+  left: -17px;
+  bottom: 22px!important;
+}

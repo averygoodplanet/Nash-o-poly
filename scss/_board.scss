@@ -102,6 +102,24 @@
     right: 10px;
   }
 
+  #opry
+  {
+    top: 12px;
+  }
+
+  #ryman
+  {
+    margin-top: 29px;
+    margin-right: -13px;
+    width: 73px;
+  }
+
+  .lprice
+  {
+    @include price_lcol();
+    @include rotate_fn(90);
+  }
+
   .vertical_tile
   {
     @include border_box_fn;
