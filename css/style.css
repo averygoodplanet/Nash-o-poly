@@ -830,6 +830,13 @@ nav #navbar li a {
     margin-top: 9px;
     margin-bottom: 5px;
     width: 470px; }
+  #contact #map {
+    margin-left: 100px !important; }
+  #contact iframe {
+    margin-top: -9px; }
+  #contact span {
+    position: relative;
+    top: -10px; }
 
 body {
   width: 1200px; }
