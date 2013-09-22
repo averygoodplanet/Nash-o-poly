@@ -120,6 +120,13 @@ nav #navbar li a {
     position: absolute;
     right: 15px;
     top: 5px; }
+    .board .lcolname#cheesename {
+      max-width: 10px;
+      bottom: 31px; }
+    .board .lcolname#healthname {
+      max-width: 31px; }
+    .board .lcolname#communityname {
+      max-width: 38px; }
   .board #coco {
     top: 13px; }
   .board #gabby {
@@ -415,6 +422,8 @@ nav #navbar li a {
       padding-left: 8px; }
     .board p.name#marche {
       padding-left: 10px; }
+    .board p.name.topbottomnonproperty {
+      margin-left: 5px; }
   .board p.price {
     margin-top: -5px;
     margin-left: 11px;
@@ -433,6 +442,8 @@ nav #navbar li a {
       height: 33px; }
     .board img.tile_image#printer_image {
       height: 25px; }
+    .board img.tile_image#chancebottom {
+      margin-top: 8px; }
   .board .insideboard {
     /* inside board is 540 x 540 where
     outside board is 780 X 780 */
