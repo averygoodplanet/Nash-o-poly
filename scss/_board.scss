@@ -120,6 +120,14 @@
     @include rotate_fn(90);
   }
 
+  .limage
+  {
+    -webkit-transform: rotate(90deg);
+    position: absolute;
+    left: 17px;
+    top: 11px;
+  }
+
   .vertical_tile
   {
     @include border_box_fn;

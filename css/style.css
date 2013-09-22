@@ -244,6 +244,11 @@ nav {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg); }
+  .board .limage {
+    -webkit-transform: rotate(90deg);
+    position: absolute;
+    left: 17px;
+    top: 11px; }
   .board .vertical_tile {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
