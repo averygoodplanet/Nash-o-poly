@@ -796,6 +796,15 @@ nav #navbar li a {
   #faq h2 {
     font-size: 31px;
     text-align: center; }
+  #faq dt {
+    margin-left: 23px;
+    margin-top: 25px;
+    width: 470px; }
+  #faq dd {
+    margin-left: 66px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    width: 470px; }
 
 body {
   width: 1200px; }
