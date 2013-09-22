@@ -17,3 +17,15 @@
   border: 1px solid black;
   float: $float;
 }
+
+@mixin rotate_fn(  $degrees  ) {
+  -webkit-transform: rotate(#{$degrees}deg);
+  -moz-transform: rotate(#{$degrees}deg);
+  -ms-transform: rotate(#{$degrees}deg);
+}
+
+@mixin price_lcol() {
+  position: absolute;
+  left: -17px;
+  bottom: 22px!important;
+}
