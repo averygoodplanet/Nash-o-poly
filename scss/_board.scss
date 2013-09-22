@@ -88,6 +88,22 @@
     position: absolute;
     right: 15px;
     top: 5px;
+
+    &#cheesename
+    {
+      max-width: 10px;
+      bottom: 31px;
+    }
+
+    &#healthname
+    {
+      max-width: 31px;
+    }
+
+    &#communityname
+    {
+      max-width: 38px;
+    }
   }
 
   #coco
@@ -138,6 +154,16 @@
   {
     @include price_lcol();
     @include rotate_fn(90);
+
+    &#opryprice, &#rymanprice
+    {
+      margin-left: 14px;
+    }
+
+    &#healthprice
+    {
+      margin-left: 0px;
+    }
   }
 
   .rprice
@@ -377,6 +403,11 @@
     {
       padding-left: 10px;
     }
+
+    &.topbottomnonproperty
+    {
+      margin-left: 5px;
+    }
   }
 
   p.price
@@ -406,6 +437,11 @@
     &#printer_image
     {
       height: 25px;
+    }
+
+    &#chancebottom
+    {
+      margin-top: 8px;
     }
   }
 

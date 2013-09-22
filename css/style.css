@@ -156,6 +156,13 @@ nav #navbar li a {
     position: absolute;
     right: 15px;
     top: 5px; }
+    .board .lcolname#cheesename {
+      max-width: 10px;
+      bottom: 31px; }
+    .board .lcolname#healthname {
+      max-width: 31px; }
+    .board .lcolname#communityname {
+      max-width: 38px; }
   .board #coco {
     top: 13px; }
   .board #gabby {
@@ -188,6 +195,10 @@ nav #navbar li a {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg); }
+    .board .lprice#opryprice, .board .lprice#rymanprice {
+      margin-left: 14px; }
+    .board .lprice#healthprice {
+      margin-left: 0px; }
   .board .rprice {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -451,6 +462,8 @@ nav #navbar li a {
       padding-left: 8px; }
     .board p.name#marche {
       padding-left: 10px; }
+    .board p.name.topbottomnonproperty {
+      margin-left: 5px; }
   .board p.price {
     margin-top: -5px;
     margin-left: 11px;
@@ -469,11 +482,16 @@ nav #navbar li a {
       height: 33px; }
     .board img.tile_image#printer_image {
       height: 25px; }
+
   .board #absolutely {
     position: absolute;
     top: 756px;
     left: 548px;
     z-index: 2; }
+
+    .board img.tile_image#chancebottom {
+      margin-top: 8px; }
+
   .board .insideboard {
     /* inside board is 540 x 540 where
     outside board is 780 X 780 */
@@ -813,6 +831,24 @@ nav #navbar li a {
           display: block;
           margin: 3px auto auto;
           border-radius: 5px; }
+
+#faq {
+  /*Test*/
+  height: 540px;
+  width: 540px;
+  position: absolute; }
+  #faq h2 {
+    font-size: 31px;
+    text-align: center; }
+  #faq dt {
+    margin-left: 23px;
+    margin-top: 25px;
+    width: 470px; }
+  #faq dd {
+    margin-left: 66px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    width: 470px; }
 
 body {
   width: 1200px; }
