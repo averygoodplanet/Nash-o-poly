@@ -71,6 +71,22 @@
     float: left;
   }
 
+  .corner img
+  {
+    height: 118px;
+    width: 118px;
+
+    &#just_visiting
+    {
+      @include rotate_fn(180);
+    }
+
+    &#parking
+    {
+      @include rotate_fn(180);
+    }
+  }
+
   .rotate180
   {
     @include rotate_fn(180);
