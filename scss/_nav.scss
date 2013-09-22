@@ -1,5 +1,8 @@
 nav{
 
+
+
+
   #navbar
   {
     margin-left: 5%;
@@ -9,6 +12,7 @@ nav{
     position: relative;
   }
 
+
   #navbar li:nth-child(1)
   {
     position: absolute;
@@ -16,7 +20,15 @@ nav{
     left:0px;
     z-index:1;
     display: inline;
+
+
   }
+      #navbar li:nth-child(1):hover{
+    position: absolute;
+    top: 0px;
+    left:207px;
+    z-index:1;
+    display: inline;}
 
 
   #navbar li:nth-child(2)
@@ -28,16 +40,32 @@ nav{
     display: inline;
 
   }
+      #navbar li:nth-child(2):hover{
+    position: absolute;
+    top: 72px;
+    left:207px;
+    z-index:2;
+    display: inline;}
 
     #navbar li:nth-child(3)
   {
     position: absolute;
-    top: 145px;
+    top: 144px;
     left:0px;
     z-index:3;
-    display: inline;
+    display: inline;}
 
-  }
+    #navbar li:nth-child(3):hover{
+    position: absolute;
+    top: 144px;
+    left:207px;
+    z-index:3;
+    display: inline;}
+
+
+
+
+
 
     #navbar li:nth-child(4)
   {
@@ -49,6 +77,13 @@ nav{
 
   }
 
+      #navbar li:nth-child(4):hover{
+    position: absolute;
+    top: 215px;
+    left:207px;
+    z-index:4;
+    display: inline;}
+
     #navbar li:nth-child(5)
   {
     position: absolute;
@@ -56,7 +91,14 @@ nav{
     left:0px;
     z-index:5;
 
+
   }
+      #navbar li:nth-child(5):hover{
+    position: absolute;
+    top: 287px;
+    left:207px;
+    z-index:5;
+    display: inline;}
 
       #navbar li:nth-child(6)
   {
@@ -66,7 +108,12 @@ nav{
     z-index:6;
     display: inline;
   }
-
+    #navbar li:nth-child(6):hover{
+    position: absolute;
+    top: 360px;
+    left:207px;
+    z-index:6;
+    display: inline;}
   #navbar li a
   {
    text-decoration:none;
