@@ -1,3 +1,16 @@
+
+1: @import 'colors';
+2: @import 'fonts';
+3: @import 'functions';
+4: @import 'header';
+5: @import 'nav';
+6: @import 'board';
+7: @import 'faq';
+8:
+9: body
+10: {
+11:   width:1200px;
+
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 #card_title {
@@ -813,8 +826,27 @@ nav #navbar li a {
     margin-bottom: 5px;
     width: 470px; }
 
+#contact {
+  /*Test*/
+  height: 540px;
+  width: 540px;
+  position: absolute; }
+  #contact h2 {
+    font-size: 31px;
+    text-align: center; }
+  #contact dt {
+    margin-left: 23px;
+    margin-top: 25px;
+    width: 470px; }
+  #contact dd {
+    margin-left: 66px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    width: 470px; }
+
 body {
   width: 1200px; }
 
 .clear {
   clear: both; }
+>>>>>>> 25a56c9225fee130b0306bcd3ed6fa62a670d1d7
