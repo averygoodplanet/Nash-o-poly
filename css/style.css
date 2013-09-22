@@ -159,6 +159,10 @@ nav #navbar li a {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg); }
+    .board .lprice#opryprice, .board .lprice#rymanprice {
+      margin-left: 14px; }
+    .board .lprice#healthprice {
+      margin-left: 0px; }
   .board .rprice {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);

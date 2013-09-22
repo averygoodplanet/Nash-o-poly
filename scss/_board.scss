@@ -154,6 +154,16 @@
   {
     @include price_lcol();
     @include rotate_fn(90);
+
+    &#opryprice, &#rymanprice
+    {
+      margin-left: 14px;
+    }
+
+    &#healthprice
+    {
+      margin-left: 0px;
+    }
   }
 
   .rprice
