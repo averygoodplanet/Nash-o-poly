@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Contact Us: Nash-o-poly</title>
+    <link href='../css/normalize.css' rel='stylesheet'>
+    <link href='../css/style.css' rel='stylesheet'>
+    <!-- %script{src:'jquery-1.10.2.min.js'} -->
+    <!-- %script{src:'js/navcards.js'} -->
+  </head>
+  <body>
+    <header>
+      <img src='../images/nashopolylogo.jpg'>
+    </header>
+    <nav>
+      <ul id='navbar'>
+        <li>
+          <a href='index.html'>
+            <img src='../images/navbar/homenav.jpg'>
+          </a>
+        </li>
+        <li>
+          <a href='gameboard.html'>
+            <img src='../images/navbar/boardnav.jpg'>
+          </a>
+        </li>
+        <li>
+          <a href='pieces.html'>
+            <img src='../images/navbar/piecesnav.jpg'>
+          </a>
+        </li>
+        <li>
+          <a href='cards.html'>
+            <img src='../images/navbar/cardsnav.jpg'>
+          </a>
+        </li>
+        <li>
+          <a href='faq.html'>
+            <img src='../images/navbar/faqnav.jpg'>
+          </a>
+        </li>
+        <li>
+          <a href='contact.html'>
+            <img src='../images/navbar/contactnav.jpg'>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class='board'>
+      <div class='row' id='top'>
+        <div class='corner'>
+          <img id='just_visiting' src='../images/top/jail.png'>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <div class='bar_purple_vertical'></div>
+          <p class='name'>Wild Horse Saloon</p>
+          <img class='tile_image' src='../images/left/wildhorse.png'>
+          <p class='price'>$140</p>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <p class='name topbottomnonproperty'>Music City Eats</p>
+          <img class='tile_image' src='../images/top/mc_eats.png'>
+          <p class='price'>$150</p>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <div class='bar_purple_vertical'></div>
+          <p class='name'>Jack's BBQ</p>
+          <img class='tile_image' src='../images/left/jacks.png'>
+          <p class='price'>$140</p>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <div class='bar_purple_vertical'></div>
+          <p class='name' id='saucer'>Flying Saucer</p>
+          <img class='tile_image' src='../images/left/flying_saucer.png'>
+          <p class='price'>$160</p>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <p class='name topbottomnonproperty'>Smokin Thighs</p>
+          <img class='tile_image' src='../images/bottom/sm_truck.png'>
+          <p class='price'>$200</p>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <div class='bar_orange_vertical'></div>
+          <p class='name' id='tootsies'>Tootsies</p>
+          <img class='tile_image' src='../images/left/tootsies.png'>
+          <p class='price'>$180</p>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <p class='name topbottomnonproperty'>Community Chest</p>
+          <img class='tile_image' src='../images/bottom/comm_chest.png'>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <div class='bar_orange_vertical'></div>
+          <p class='name' id='robert'>Robert's Western World</p>
+          <img class='tile_image' id='rob_image' src='../images/left/Roberts.png'>
+          <p class='price'>$180</p>
+        </div>
+        <div class='vertical_tile rotate180'>
+          <div class='bar_orange_vertical'></div>
+          <p class='name' id='printer'>Printer's Alley</p>
+          <img class='tile_image' id='printer_image' src='../images/left/printers_alley.png'>
+          <p class='price'>$200</p>
+        </div>
+        <div class='corner'>
+          <img id='parking' src='../images/top/free_parking.png'>
+        </div>
+      </div>
+      <div id='across_columns'>
+        <div class='column' id='left'>
+          <div class='horizontal_tile'>
+            <div class='bar_lightblue_horizontal_fr'></div>
+            <p class='name lcolname' id='coco'>Coco's</p>
+            <img class='tile_image limage' src='../images/bottom/cafecoco.jpg'>
+            <p class='price lprice'>$120</p>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_lightblue_horizontal_fr'></div>
+            <p class='name lcolname' id='gabby'>Gabby's Burgers</p>
+            <img class='tile_image limage' src='../images/bottom/gabbys.png'>
+            <p class='price lprice'>$100</p>
+          </div>
+          <div class='horizontal_tile'>
+            <p class='name lcolname'>Chance</p>
+            <img class='tile_image limage' src='../images/bottom/chance_orange.png'>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_lightblue_horizontal_fr'></div>
+            <p class='name lcolname' id='baja'>Baja Burrito</p>
+            <img class='tile_image limage' src='../images/bottom/bajaburrito.png'>
+            <p class='price lprice'>$100</p>
+          </div>
+          <div class='horizontal_tile'>
+            <p class='name lcolname' id='cheesename'>Grilled Cheeserie</p>
+            <img class='tile_image limage' src='../images/right/cheese_truck.png'>
+            <p class='price lprice'>$200</p>
+          </div>
+          <div class='horizontal_tile'>
+            <p class='name lcolname' id='healthname'>Health Inspection</p>
+            <img class='tile_image limage' src='../images/left/health.png'>
+            <p class='price lprice' id='healthprice'>Pay $200</p>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_brown_horizontal_fr'></div>
+            <p class='name lcolname' id='opry'>The Opry</p>
+            <img class='tile_image limage' src='../images/opry.jpg'>
+            <p class='price lprice' id='opryprice'>$60</p>
+          </div>
+          <div class='horizontal_tile'>
+            <p class='name lcolname' id='communityname'>Community Chest</p>
+            <img class='tile_image limage' src='../images/left/comm_chest.png'>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_brown_horizontal_fr'></div>
+            <p class='name lcolname' id='ryman'>Ryman Auditorium</p>
+            <img class='tile_image limage' src='../images/ryman.jpg'>
+            <p class='price lprice' id='rymanprice'>$60</p>
+          </div>
+        </div>
+        <div class='insideboard'>
+          <div id='gameboard'>
+            <img src='../images/insideboard.png'>
+          </div>
+        </div>
+        <div class='column' id='right'>
+          <div class='horizontal_tile'>
+            <div class='bar_red_horizontal_fl'></div>
+            <p class='name rcolname'>Pancake Pantry</p>
+            <img class='tile_image rimage' src='../images/top/pancake_pantry.png'>
+            <p class='price rprice'>$220</p>
+          </div>
+          <div class='horizontal_tile'>
+            <p class='name rcolname'>Chance</p>
+            <img class='tile_image rimage' src='../images/bottom/chance_orange.png'>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_red_horizontal_fl'></div>
+            <p class='name rcolname'>Loveless Cafe</p>
+            <img class='tile_image rimage' src='../images/top/loveless.png'>
+            <p class='price rprice'>$220</p>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_red_horizontal_fl'></div>
+            <p class='name rcolname'>Fido's</p>
+            <img class='tile_image rimage' src='../images/top/fido.png'>
+            <p class='price rprice'>$240</p>
+          </div>
+          <div class='horizontal_tile'>
+            <p class='name rcolname'>Mas Tacos</p>
+            <img class='tile_image rimage' src='../images/left/mas_truck.png'>
+            <p class='price rprice'>$200</p>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_yellow_horizontal_fl'></div>
+            <p class='name rcolname'>Prince's Hot Chicken</p>
+            <img class='tile_image rimage' src='../images/top/princes.png'>
+            <p class='price rprice'>$260</p>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_yellow_horizontal_fl'></div>
+            <p class='name rcolname'>Bluebird Cafe</p>
+            <img class='tile_image rimage' src='../images/top/bluebird.png'>
+            <p class='price rprice'>$260</p>
+          </div>
+          <div class='horizontal_tile'>
+            <p class='name rcolname'>Nashville Scene</p>
+            <img class='tile_image rimage' src='../images/left/nash_scene.png'>
+            <p class='price rprice'>$150</p>
+          </div>
+          <div class='horizontal_tile'>
+            <div class='bar_yellow_horizontal_fl'></div>
+            <p class='name rcolname' id='noshville'>Noshville</p>
+            <img class='tile_image rimage' src='../images/top/noshville.png'>
+            <p class='price rprice'>$260</p>
+          </div>
+        </div>
+      </div>
+      <div class='row clear' id='bottom'>
+        <div class='corner'>
+          <img id='go' src='../images/bottom/go.png'>
+        </div>
+        <div class='vertical_tile'>
+          <div class='bar_darkblue_vertical'></div>
+          <p class='name' id='sperry'>Sperry's</p>
+          <img class='tile_image' src='../images/right/sperrys.png'>
+          <p class='price'>$400</p>
+        </div>
+        <div class='vertical_tile'>
+          <p class='name topbottomnonproperty'>Health Inspection</p>
+          <img class='tile_image' src='../images/left/health.png'>
+          <p class='price'>Pay $75</p>
+        </div>
+        <div class='vertical_tile'>
+          <div class='bar_darkblue_vertical'></div>
+          <p class='name' id='palm'>The Palm</p>
+          <img class='tile_image' src='../images/right/palm.png'>
+          <p class='price'>$350</p>
+        </div>
+        <div class='vertical_tile'>
+          <p class='name topbottomnonproperty'>Chance</p>
+          <img class='tile_image' id='chancebottom' src='../images/bottom/chance_orange.png'>
+        </div>
+        <div class='vertical_tile'>
+          <p class='name topbottomnonproperty'>Delta Bound</p>
+          <img class='tile_image' src='../images/top/delta_truck.png'>
+          <p class='price'>$200</p>
+        </div>
+        <div class='vertical_tile'>
+          <div class='bar_green_vertical'></div>
+          <p class='name' id='eastland'>Eastland Cafe</p>
+          <img class='tile_image' src='../images/right/eastland_cafe.png'>
+          <p class='price'>$300</p>
+        </div>
+        <div class='vertical_tile'>
+          <p class='name topbottomnonproperty'>Community Chest</p>
+          <img class='tile_image' src='../images/bottom/comm_chest.png'>
+        </div>
+        <div class='vertical_tile'>
+          <div class='bar_green_vertical'></div>
+          <p class='name' id='marche'>Marche</p>
+          <img class='tile_image' src='../images/right/marche.png'>
+          <p class='price'>$300</p>
+        </div>
+        <div class='vertical_tile'>
+          <div class='bar_green_vertical'></div>
+          <p class='name'>Rosepepper Cantina</p>
+          <img class='tile_image' src='../images/right/rosepepper.png'>
+          <p class='price'>$300</p>
+        </div>
+        <div class='corner'>
+          <img id='go_jail' src='../images/bottom/go_to_jail.png'>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
