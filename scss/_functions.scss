@@ -107,3 +107,67 @@ background-color: $board_background_color;
   border-radius: 5px;
 }
 /* PIECES PAGE END */
+
+
+/* Cards */
+
+
+
+.chance
+{
+  float: left;
+  position: relative;
+  clear: all;
+}
+
+.img1
+{
+background-color: $board_background_color;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+
+  img:nth-child(1)
+  {
+    position: absolute;
+    top: 0px;
+    left:0px;
+  }
+    img:nth-child(2)
+  {
+    position: absolute;
+    top: 100px;
+    left:0px;
+  }
+
+
+}
+
+.img1:hover
+{
+  opacity: 0;
+}
+
+
+
+.img2
+{
+  background-color:$board_background_color;
+  width: 125px;
+  height: 240px;
+
+}
+
+
+
+.img2
+{
+  display: block;
+  margin: 3px auto auto;
+  border-radius: 5px;
+}
+/* Cards PAGE END */
