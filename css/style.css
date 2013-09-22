@@ -601,6 +601,126 @@ nav {
           display: block;
           margin: 3px auto auto;
           border-radius: 5px; }
+    .board .insideboard .pieces #chicken {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #chicken #t_chicken {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        position: absolute;
+        margin: 5px 0 5px 5px;
+        text-align: center;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #chicken #t_chicken:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #chicken #t_chicken img {
+          margin: 70px auto 0; }
+        .board .insideboard .pieces #chicken #t_chicken h3 {
+          text-shadow: 1px 1px #757575; }
+      .board .insideboard .pieces #chicken #b_chicken {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        margin: 5px 0 5px 5px; }
+        .board .insideboard .pieces #chicken #b_chicken p {
+          text-align: center;
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 12px; }
+        .board .insideboard .pieces #chicken #b_chicken h3 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
+        .board .insideboard .pieces #chicken #b_chicken img {
+          display: block;
+          margin: 3px auto auto;
+          border-radius: 5px; }
+    .board .insideboard .pieces #burger {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #burger #t_burger {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        position: absolute;
+        margin: 5px 0 5px 5px;
+        text-align: center;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #burger #t_burger:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #burger #t_burger img {
+          margin: 70px auto 0; }
+        .board .insideboard .pieces #burger #t_burger h3 {
+          text-shadow: 1px 1px #757575; }
+      .board .insideboard .pieces #burger #b_burger {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        margin: 5px 0 5px 5px; }
+        .board .insideboard .pieces #burger #b_burger p {
+          text-align: center;
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 12px; }
+        .board .insideboard .pieces #burger #b_burger h3 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
+        .board .insideboard .pieces #burger #b_burger img {
+          display: block;
+          margin: 3px auto auto;
+          border-radius: 5px; }
+    .board .insideboard .pieces #growler {
+      float: left;
+      position: relative; }
+      .board .insideboard .pieces #growler #t_growler {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        position: absolute;
+        margin: 5px 0 5px 5px;
+        text-align: center;
+        -webkit-transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -o-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out; }
+        .board .insideboard .pieces #growler #t_growler:hover {
+          opacity: 0; }
+        .board .insideboard .pieces #growler #t_growler img {
+          margin: 20px auto 0; }
+        .board .insideboard .pieces #growler #t_growler h3 {
+          text-shadow: 1px 1px #757575; }
+      .board .insideboard .pieces #growler #b_growler {
+        background-color: #cce4c8;
+        width: 125px;
+        height: 245px;
+        margin: 5px 0 5px 5px; }
+        .board .insideboard .pieces #growler #b_growler p {
+          text-align: center;
+          font-weight: normal;
+          margin-top: 8px;
+          margin-bottom: 0;
+          font-size: 12px; }
+        .board .insideboard .pieces #growler #b_growler h3 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-shadow: 1px 1px #757575; }
+        .board .insideboard .pieces #growler #b_growler img {
+          display: block;
+          margin: 3px auto auto;
+          border-radius: 5px; }
 
 body {
   width: 1200px; }

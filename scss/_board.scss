@@ -443,7 +443,7 @@
       {
         h2
         {
-          @include pieces_h2;
+          @include piece_h2;
         }
         #bbq
         {
@@ -454,14 +454,11 @@
             @include piece_top_div;
             &:hover
             {
-              opacity: 0;
+              @include piece_top_hover;
             }
             img
             {
-              @include piece_top_img;
-              // padding-right: 0; PARENT RESET
-              // width: 125px;
-              // height: 79px;
+              @include piece_top_img(70px);
             }
             h3
             {
@@ -474,7 +471,7 @@
             @include piece_bottom_div;
             p
             {
-              @include piece_bottom_p;
+              @include piece_bottom_p(15px);
             }
             h3
             {
@@ -483,10 +480,125 @@
             img
             {
               @include piece_bottom_img;
-
             }
           }
         }
+        #chicken
+        {
+          @include piece_containing_div;
+
+          #t_chicken
+          {
+            @include piece_top_div;
+            &:hover
+            {
+              @include piece_top_hover;
+            }
+            img
+            {
+              @include piece_top_img(70px);
+            }
+            h3
+            {
+              @include piece_top_h3;
+            }
+          }
+
+          #b_chicken
+          {
+            @include piece_bottom_div;
+            p
+            {
+              @include piece_bottom_p(12px);
+            }
+            h3
+            {
+              @include piece_bottom_h3;
+            }
+            img
+            {
+              @include piece_bottom_img;
+            }
+          }
+        }
+        #burger
+        {
+          @include piece_containing_div;
+
+          #t_burger
+          {
+            @include piece_top_div;
+            &:hover
+            {
+              @include piece_top_hover;
+            }
+            img
+            {
+              @include piece_top_img(70px);
+            }
+            h3
+            {
+              @include piece_top_h3;
+            }
+          }
+
+          #b_burger
+          {
+            @include piece_bottom_div;
+            p
+            {
+              @include piece_bottom_p(12px);
+            }
+            h3
+            {
+              @include piece_bottom_h3;
+            }
+            img
+            {
+              @include piece_bottom_img;
+            }
+          }
+        }
+      #growler
+        {
+          @include piece_containing_div;
+
+          #t_growler
+          {
+            @include piece_top_div;
+            &:hover
+            {
+              @include piece_top_hover;
+            }
+            img
+            {
+              @include piece_top_img(20px);
+            }
+            h3
+            {
+              @include piece_top_h3;
+            }
+          }
+
+          #b_growler
+          {
+            @include piece_bottom_div;
+            p
+            {
+              @include piece_bottom_p(12px);
+            }
+            h3
+            {
+              @include piece_bottom_h3;
+            }
+            img
+            {
+              @include piece_bottom_img;
+            }
+          }
+        }
+
+
       }
     }
 }

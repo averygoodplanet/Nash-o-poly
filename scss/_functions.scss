@@ -30,7 +30,7 @@
   bottom: 22px!important;
 }
 
-@mixin pieces_h2
+@mixin piece_h2
 {
   margin-top: 3px;
   margin-bottom: 0;
@@ -57,9 +57,14 @@ background-color: $board_background_color;
   transition: opacity .25s ease-in-out;
 }
 
-@mixin piece_top_img
+@mixin piece_top_hover
 {
-  margin: 70px auto 0;
+  opacity: 0;
+}
+
+@mixin piece_top_img($top-margin)
+{
+  margin: $top-margin auto 0;
 }
 
 @mixin piece_top_h3
@@ -75,13 +80,13 @@ background-color: $board_background_color;
   margin: 5px 0 5px 5px;
 }
 
-@mixin piece_bottom_p
+@mixin piece_bottom_p($font-size)
 {
   text-align: center;
   font-weight: normal;
   margin-top: 8px;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: $font-size;
 }
 
 @mixin piece_bottom_h3
