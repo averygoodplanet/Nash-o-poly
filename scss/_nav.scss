@@ -28,7 +28,12 @@ nav{
     top: 0px;
     left:207px;
     z-index:1;
-    display: inline;}
+    display: inline;
+          -webkit-transition: all .90s ease-in-out;
+        -moz-transition: all .90s ease-in-out;
+        -o-transition: all .90s ease-in-out;
+        transition: all .90s ease-in-out;
+      }
 
 
   #navbar li:nth-child(2)
@@ -37,7 +42,9 @@ nav{
     top: 72px;
     left:0px;
     z-index:2;
-    display: inline;
+    display: inline
+
+    ;
 
   }
       #navbar li:nth-child(2):hover{
@@ -45,7 +52,12 @@ nav{
     top: 72px;
     left:207px;
     z-index:2;
-    display: inline;}
+    display: inline;
+          -webkit-transition: all .90s ease-in-out;
+        -moz-transition: all .90s ease-in-out;
+        -o-transition: all .90s ease-in-out;
+        transition: all .90s ease-in-out;
+  }
 
     #navbar li:nth-child(3)
   {
@@ -60,7 +72,12 @@ nav{
     top: 144px;
     left:207px;
     z-index:3;
-    display: inline;}
+    display: inline;
+          -webkit-transition: all .90s ease-in-out;
+        -moz-transition: all .90s ease-in-out;
+        -o-transition: all .90s ease-in-out;
+        transition: all .90s ease-in-out;
+  }
 
 
 
@@ -82,7 +99,11 @@ nav{
     top: 215px;
     left:207px;
     z-index:4;
-    display: inline;}
+    display: inline;
+          -webkit-transition: all .90s ease-in-out;
+        -moz-transition: all .90s ease-in-out;
+        -o-transition: all .90s ease-in-out;
+        transition: all .90s ease-in-out;  }
 
     #navbar li:nth-child(5)
   {
@@ -90,6 +111,7 @@ nav{
     top: 287px;
     left:0px;
     z-index:5;
+    display: inline
 
 
   }
@@ -98,7 +120,12 @@ nav{
     top: 287px;
     left:207px;
     z-index:5;
-    display: inline;}
+    display: inline;
+          -webkit-transition: all .90s ease-in-out;
+        -moz-transition: all .90s ease-in-out;
+        -o-transition: all .90s ease-in-out;
+        transition: all .90s ease-in-out;
+  }
 
       #navbar li:nth-child(6)
   {
@@ -113,7 +140,13 @@ nav{
     top: 360px;
     left:207px;
     z-index:6;
-    display: inline;}
+    display: inline;
+          -webkit-transition: all .90s ease-in-out;
+        -moz-transition: all .90s ease-in-out;
+        -o-transition: all .90s ease-in-out;
+        transition: all .90s ease-in-out;
+
+  }
   #navbar li a
   {
    text-decoration:none;
