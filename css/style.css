@@ -15,43 +15,93 @@ nav {
 /* PIECES PAGE */
 /* PIECES PAGE END */
 /* Cards */
-.chance {
+#chest {
   float: left;
   position: relative;
   clear: all; }
+  #chest img {
+    width: 220px;
+    height: 100px; }
+
+#chance {
+  float: left;
+  position: relative;
+  clear: all; }
+  #chance img {
+    width: 220px;
+    height: 100px; }
 
 .img1 {
   background-color: #cce4c8;
-  width: 250px;
-  height: 100px;
+  width: 200px;
+  height: 90px;
   position: absolute;
   -webkit-transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -o-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out; }
-  .img1 img:nth-child(1) {
-    position: absolute;
-    top: 0px;
-    left: 0px; }
-  .img1 img:nth-child(2) {
-    position: absolute;
-    top: 100px;
-    left: 0px; }
 
 .img1:hover {
   opacity: 0; }
 
 .img2 {
   background-color: #cce4c8;
-  width: 125px;
-  height: 240px; }
+  width: 200px;
+  height: 90px; }
 
 .img2 {
-  display: block;
-  margin: 3px auto auto;
-  border-radius: 5px; }
+  display: block; }
 
-/* Cards PAGE END */
+.chance1 {
+  position: absolute;
+  top: 0px;
+  left: 20px; }
+
+.chance2 {
+  position: absolute;
+  top: 103px;
+  left: 20px; }
+
+.chance3 {
+  position: absolute;
+  top: 211px;
+  left: 20px; }
+
+.chance4 {
+  position: absolute;
+  top: 320px;
+  left: 20px; }
+
+.chance5 {
+  position: absolute;
+  top: 430px;
+  left: 20px; }
+
+.chest5 {
+  position: absolute;
+  top: 0px;
+  left: 300px; }
+
+.chest2 {
+  position: absolute;
+  top: 103px;
+  left: 300px; }
+
+.chest3 {
+  position: absolute;
+  top: 211px;
+  left: 300px; }
+
+.chest4 {
+  position: absolute;
+  top: 320px;
+  left: 300px; }
+
+.chest1 {
+  position: absolute;
+  top: 420px;
+  left: 300px; }
+
 header {
   margin-top: auto; }
   header img {
@@ -909,6 +959,94 @@ nav #navbar li a {
       font-style: italic; }
     .board .insideboard .index_page h1, .board .insideboard .index_page h2, .board .insideboard .index_page p {
       text-align: center; }
+
+/* Cards */
+#chest {
+  float: left;
+  position: relative;
+  clear: all; }
+  #chest img {
+    width: 220px;
+    height: 100px; }
+
+#chance {
+  float: left;
+  position: relative;
+  clear: all; }
+  #chance img {
+    width: 220px;
+    height: 100px; }
+
+.img1 {
+  background-color: #cce4c8;
+  width: 200px;
+  height: 90px;
+  position: absolute;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out; }
+
+.img1:hover {
+  opacity: 0; }
+
+.img2 {
+  background-color: #cce4c8;
+  width: 200px;
+  height: 90px; }
+
+.img2 {
+  display: block; }
+
+.chance1 {
+  position: absolute;
+  top: 0px;
+  left: 20px; }
+
+.chance2 {
+  position: absolute;
+  top: 103px;
+  left: 20px; }
+
+.chance3 {
+  position: absolute;
+  top: 211px;
+  left: 20px; }
+
+.chance4 {
+  position: absolute;
+  top: 320px;
+  left: 20px; }
+
+.chance5 {
+  position: absolute;
+  top: 430px;
+  left: 20px; }
+
+.chest5 {
+  position: absolute;
+  top: 0px;
+  left: 300px; }
+
+.chest2 {
+  position: absolute;
+  top: 103px;
+  left: 300px; }
+
+.chest3 {
+  position: absolute;
+  top: 211px;
+  left: 300px; }
+
+.chest4 {
+  position: absolute;
+  top: 320px;
+  left: 300px; }
+
+.chest1 {
+  position: absolute;
+  top: 435px;
+  left: 300px; }
 
 #faq {
   /*Test*/

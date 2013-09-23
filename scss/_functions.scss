@@ -111,45 +111,47 @@ background-color: $board_background_color;
 
 /* Cards */
 
-
-
-.chance
+#chest
 {
   float: left;
   position: relative;
   clear: all;
+
+  img{
+    width:220px;
+    height:100px;
+  }
+}
+
+#chance
+{
+  float: left;
+  position: relative;
+  clear: all;
+
+  img{
+    width:220px;
+    height:100px;
+  }
 }
 
 .img1
 {
 background-color: $board_background_color;
-  width: 250px;
-  height: 100px;
+  width: 200px;
+  height: 90px;
   position: absolute;
   -webkit-transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -o-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out;
 
-  img:nth-child(1)
-  {
-    position: absolute;
-    top: 0px;
-    left:0px;
-  }
-    img:nth-child(2)
-  {
-    position: absolute;
-    top: 100px;
-    left:0px;
-  }
-
-
 }
 
 .img1:hover
 {
   opacity: 0;
+
 }
 
 
@@ -157,8 +159,8 @@ background-color: $board_background_color;
 .img2
 {
   background-color:$board_background_color;
-  width: 125px;
-  height: 240px;
+  width: 200px;
+  height: 90px;
 
 }
 
@@ -167,7 +169,66 @@ background-color: $board_background_color;
 .img2
 {
   display: block;
-  margin: 3px auto auto;
-  border-radius: 5px;
+
 }
-/* Cards PAGE END */
+
+.chance1
+  {
+    position: absolute;
+    top: 0px;
+    left:20px;
+  }
+  .chance2
+  {
+    position: absolute;
+    top: 103px;
+    left:20px;
+  }
+  .chance3
+  {
+    position: absolute;
+    top: 211px;
+    left:20px;
+  }
+  .chance4
+  {
+    position: absolute;
+    top: 320px;
+    left:20px;
+  }
+  .chance5
+  {
+    position: absolute;
+    top: 430px;
+    left:20px;
+  }
+  .chest5
+  {
+    position: absolute;
+    top: 0px;
+    left:300px;
+  }
+  .chest2
+  {
+    position: absolute;
+    top: 103px;
+    left:300px;
+  }
+  .chest3
+  {
+    position: absolute;
+    top: 211px;
+    left:300px;
+  }
+  .chest4
+  {
+    position: absolute;
+    top: 320px;
+    left:300px;
+  }
+  .chest1
+  {
+    position: absolute;
+    top: 420px;
+    left:300px;
+  }

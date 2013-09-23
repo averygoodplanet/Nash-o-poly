@@ -2,26 +2,34 @@
 %html{lang: 'en'}
   %head
     %meta{charset: 'utf-8'}
-    %title Nash-o-poly
+    %title Contact Us: Nash-o-poly
     %link{rel: 'stylesheet', href: '../css/normalize.css'}
     %link{rel: 'stylesheet', href: '../css/style.css'}
+    /%script{src:'jquery-1.10.2.min.js'}
+    /%script{src:'js/navcards.js'}
   %body
     %header
-      %img{src:'../images/nashville_wall_decal.jpg'}
+      %img{src:'../images/nashopolylogo.jpg'}
     %nav
-      %ul
+      %ul#navbar
         %li
-          %a{:href => "../index.html"} Home
+          %a{:href => "index.html"}
+            %img{src:"../images/navbar/homenav.jpg"}
         %li
-          %a{:href => "../gameboard.html"} Gameboard
+          %a{:href => "gameboard.html"}
+            %img{src:"../images/navbar/boardnav.jpg"}
         %li
-          %a{:href => "../pieces.html"} Pieces
+          %a{:href => "pieces.html"}
+            %img{src:"../images/navbar/piecesnav.jpg"}
         %li
-          %a{:href => "../cards.html"} Cards
+          %a{:href => "cards.html"}
+            %img{src:"../images/navbar/cardsnav.jpg"}
         %li
-          %a{:href => "../faq.html"} FAQ
+          %a{:href => "faq.html"}
+            %img{src:"../images/navbar/faqnav.jpg"}
         %li
-          %a{:href => "../contactus.html"} Contact Us
+          %a{:href => "contact.html"}
+            %img{src:"../images/navbar/contactnav.jpg"}
     .board
       .row#top
         .corner
