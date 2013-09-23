@@ -959,6 +959,8 @@ nav #navbar li a {
       font-style: italic; }
     .board .insideboard .index_page h1, .board .insideboard .index_page h2, .board .insideboard .index_page p {
       text-align: center; }
+    .board .insideboard .index_page iframe {
+      margin-left: 60px; }
 
 /* Cards */
 #chest {
