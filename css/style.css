@@ -600,6 +600,11 @@ nav #navbar li a {
       height: 25px; }
     .board img.tile_image#chancebottom {
       margin-top: 8px; }
+  .board #absolutely {
+    position: absolute;
+    top: 756px;
+    left: 548px;
+    z-index: 1; }
   .board .insideboard {
     /* inside board is 540 x 540 where
     outside board is 780 X 780 */

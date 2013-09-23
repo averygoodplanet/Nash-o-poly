@@ -8,264 +8,265 @@
     /%script{src:'jquery-1.10.2.min.js'}
     /%script{src:'js/navcards.js'}
   %body
-    %header
-      %img{src:'../images/nashlogo.png'}
-    %nav
-      %ul#navbar
-        %li
-          %a{:href => "../index.html"}
-            %img{src:"../images/navbar/homenav.jpg"}
-        %li
-          %a{:href => "gameboard.html"}
-            %img{src:"../images/navbar/boardnav.jpg"}
-        %li
-          %a{:href => "pieces.html"}
-            %img{src:"../images/navbar/piecesnav.jpg"}
-        %li
-          %a{:href => "cards.html"}
-            %img{src:"../images/navbar/cardsnav.jpg"}
-        %li
-          %a{:href => "faq.html"}
-            %img{src:"../images/navbar/faqnav.jpg"}
-        %li
-          %a{:href => "contact.html"}
-            %img{src:"../images/navbar/contactnav.jpg"}
-    .board
-      .row#top
-        .corner
-          %img#just_visiting{src:'../images/top/jail.png'}
-        .vertical_tile.rotate180
-          .bar_purple_vertical
-          %p.name Wild Horse Saloon
-          %img.tile_image{src:'../images/left/wildhorse.png'}
-          %p.price $140
-        .vertical_tile.rotate180
-          %p.name.topbottomnonproperty Music City Eats
-          %img.tile_image{src:'../images/top/mc_eats.png'}
-          %p.price $150
-        .vertical_tile.rotate180
-          .bar_purple_vertical
-          %p.name Jack's BBQ
-          %img.tile_image{src:'../images/left/jacks.png'}
-          %p.price $140
-        .vertical_tile.rotate180
-          .bar_purple_vertical
-          %p.name#saucer Flying Saucer
-          %img.tile_image{src:'../images/left/flying_saucer.png'}
-          %p.price $160
-        .vertical_tile.rotate180
-          %p.name.topbottomnonproperty Smokin Thighs
-          %img.tile_image{src:'../images/bottom/sm_truck.png'}
-          %p.price $200
-        .vertical_tile.rotate180
-          .bar_orange_vertical
-          %p.name#tootsies Tootsies
-          %img.tile_image{src:'../images/left/tootsies.png'}
-          %p.price $180
-        .vertical_tile.rotate180
-          %p.name.topbottomnonproperty Community Chest
-          %img.tile_image{src:'../images/bottom/comm_chest.png'}
-        .vertical_tile.rotate180
-          .bar_orange_vertical
-          %p.name#robert Robert's Western World
-          %img.tile_image#rob_image{src:'../images/left/Roberts.png'}
-          %p.price $180
-        .vertical_tile.rotate180
-          .bar_orange_vertical
-          %p.name#printer Printer's Alley
-          %img.tile_image#printer_image{src:'../images/left/printers_alley.png'}
-          %p.price $200
-        .corner
-          %img#parking{src:'../images/top/free_parking.png'}
-      #across_columns
-        .column#left
-          .horizontal_tile
-            .bar_lightblue_horizontal_fr
-            %p.name.lcolname#coco Coco's
-            %img.tile_image.limage{src:'../images/bottom/cafecoco.jpg'}
-            %p.price.lprice $120
-          .horizontal_tile
-            .bar_lightblue_horizontal_fr
-            %p.name.lcolname#gabby Gabby's Burgers
-            %img.tile_image.limage{src:'../images/bottom/gabbys.png'}
-            %p.price.lprice $100
-          .horizontal_tile
-            %p.name.lcolname Chance
-            %img.tile_image.limage{src:'../images/bottom/chance_orange.png'}
-          .horizontal_tile
-            .bar_lightblue_horizontal_fr
-            %p.name.lcolname#baja Baja Burrito
-            %img.tile_image.limage{src:'../images/bottom/bajaburrito.png'}
-            %p.price.lprice $100
-          .horizontal_tile
-            %p.name.lcolname#cheesename Grilled Cheeserie
-            %img.tile_image.limage{src:'../images/right/cheese_truck.png'}
-            %p.price.lprice $200
-          .horizontal_tile
-            %p.name.lcolname#healthname Health Inspection
-            %img.tile_image.limage{src:'../images/left/health.png'}
-            %p.price.lprice#healthprice Pay $200
-          .horizontal_tile
-            .bar_brown_horizontal_fr
-            %p.name.lcolname#opry The Opry
-            %img.tile_image.limage{src:'../images/opry.jpg'}
-            %p.price.lprice#opryprice $60
-          .horizontal_tile
-            %p.name.lcolname#communityname Community Chest
-            %img.tile_image.limage{src:'../images/left/comm_chest.png'}
-          .horizontal_tile
-            .bar_brown_horizontal_fr
-            %p.name.lcolname#ryman Ryman Auditorium
-            %img.tile_image.limage{src:'../images/ryman.jpg'}
-            %p.price.lprice#rymanprice $60
-        .insideboard
-          #chance
-            .chance1
-              .img1
-                %img{src:'../images/cards/chance.png'}
-              .img2
-                %img{src:'../images/cards/chance4.png'}
-              .clear
-            .chance2
-              .img1
-                %img{src:'../images/cards/chance.png'}
-              .img2
-                %img{src:'../images/cards/chance2.png'}
-              .clear
-            .chance3
-              .img1
-                %img{src:'../images/cards/chance.png'}
-              .img2
-                %img{src:'../images/cards/chance3.png'}
-              .clear
-            .chance4
-              .img1
-                %img{src:'../images/cards/chance.png'}
-              .img2
-                %img{src:'../images/cards/chance1.png'}
-              .clear
-            .chance5
-              .img1
-                %img{src:'../images/cards/chance.png'}
-              .img2
-                %img{src:'../images/cards/chance5.png'}
-              .clear
-          #chest
-            .chest1
-              .img1
-                %img{src:'../images/cards/chest.png'}
-              .img2
-                %img{src:'../images/cards/chest1.png'}
-              .clear
-            .chest2
-              .img1
-                %img{src:'../images/cards/chest.png'}
-              .img2
-                %img{src:'../images/cards/chest2.png'}
-              .clear
-            .chest3
-              .img1
-                %img{src:'../images/cards/chest.png'}
-              .img2
-                %img{src:'../images/cards/chest3.png'}
-              .clear
-            .chest4
-              .img1
-                %img{src:'../images/cards/chest.png'}
-              .img2
-                %img{src:'../images/cards/chest4.png'}
-              .clear
-            .chest5
-              .img1
-                %img{src:'../images/cards/chest.png'}
-              .img2
-                %img{src:'../images/cards/chest5.png'}
-              .clear
-        .column#right
-          .horizontal_tile
-            .bar_red_horizontal_fl
-            %p.name.rcolname Pancake Pantry
-            %img.tile_image.rimage{src:'../images/top/pancake_pantry.png'}
-            %p.price.rprice $220
-          .horizontal_tile
-            %p.name.rcolname Chance
-            %img.tile_image.rimage{src:'../images/bottom/chance_orange.png'}
-          .horizontal_tile
-            .bar_red_horizontal_fl
-            %p.name.rcolname Loveless Cafe
-            %img.tile_image.rimage{src:'../images/top/loveless.png'}
-            %p.price.rprice $220
-          .horizontal_tile
-            .bar_red_horizontal_fl
-            %p.name.rcolname Fido's
-            %img.tile_image.rimage{src:'../images/top/fido.png'}
-            %p.price.rprice $240
-          .horizontal_tile
-            %p.name.rcolname Mas Tacos
-            %img.tile_image.rimage{src:'../images/left/mas_truck.png'}
-            %p.price.rprice $200
-          .horizontal_tile
-            .bar_yellow_horizontal_fl
-            %p.name.rcolname Prince's Hot Chicken
-            %img.tile_image.rimage{src:'../images/top/princes.png'}
-            %p.price.rprice $260
-          .horizontal_tile
-            .bar_yellow_horizontal_fl
-            %p.name.rcolname Bluebird Cafe
-            %img.tile_image.rimage{src:'../images/top/bluebird.png'}
-            %p.price.rprice $260
-          .horizontal_tile
-            %p.name.rcolname Nashville Scene
-            %img.tile_image.rimage{src:'../images/left/nash_scene.png'}
-            %p.price.rprice $150
-          .horizontal_tile
-            .bar_yellow_horizontal_fl
-            %p.name.rcolname#noshville Noshville
-            %img.tile_image.rimage{src:'../images/top/noshville.png'}
-            %p.price.rprice $260
-      .row#bottom.clear
-        .corner
-          %img#go{src:'../images/bottom/go.png'}
-        .vertical_tile
-          .bar_darkblue_vertical
-          %p.name#sperry Sperry's
-          %img.tile_image{src:'../images/right/sperrys.png'}
-          %p.price $400
-        .vertical_tile
-          %p.name.topbottomnonproperty Health Inspection
-          %img.tile_image{src:'../images/left/health.png'}
-          %p.price Pay $75
-        .vertical_tile
-          .bar_darkblue_vertical
-          %p.name#palm The Palm
-          %img.tile_image{src:'../images/right/palm.png'}
-          %p.price $350
-        .vertical_tile
-          %p.name.topbottomnonproperty Chance
-          %img.tile_image#chancebottom{src:'../images/bottom/chance_orange.png'}
-        .vertical_tile
-          %p.name.topbottomnonproperty Delta Bound
-          %img.tile_image{src:'../images/top/delta_truck.png'}
-          %p.price $200
-        .vertical_tile
-          .bar_green_vertical
-          %p.name#eastland Eastland Cafe
-          %img.tile_image{src:'../images/right/eastland_cafe.png'}
-          %p.price $300
-        .vertical_tile
-          %p.name.topbottomnonproperty Community Chest
-          %img.tile_image{src:'../images/bottom/comm_chest.png'}
-        .vertical_tile
-          .bar_green_vertical
-          %p.name#marche Marche
-          %img.tile_image{src:'../images/right/marche.png'}
-          %p.price $300
-        .vertical_tile
-          .bar_green_vertical
-          %p.name Rosepepper Cantina
-          %img.tile_image{src:'../images/right/rosepepper.png'}
-          %p.price $300
-        .corner
-          %img#go_jail{src:'../images/bottom/go_to_jail.png'}
+    .container
+      %header
+        %img{src:'../images/nashlogo.png'}
+      %nav
+        %ul#navbar
+          %li
+            %a{:href => "../index.html"}
+              %img{src:"../images/navbar/homenav.jpg"}
+          %li
+            %a{:href => "gameboard.html"}
+              %img{src:"../images/navbar/boardnav.jpg"}
+          %li
+            %a{:href => "pieces.html"}
+              %img{src:"../images/navbar/piecesnav.jpg"}
+          %li
+            %a{:href => "cards.html"}
+              %img{src:"../images/navbar/cardsnav.jpg"}
+          %li
+            %a{:href => "faq.html"}
+              %img{src:"../images/navbar/faqnav.jpg"}
+          %li
+            %a{:href => "contact.html"}
+              %img{src:"../images/navbar/contactnav.jpg"}
+      .board
+        .row#top
+          .corner
+            %img#just_visiting{src:'../images/top/jail.png'}
+          .vertical_tile.rotate180
+            .bar_purple_vertical
+            %p.name Wild Horse Saloon
+            %img.tile_image{src:'../images/left/wildhorse.png'}
+            %p.price $140
+          .vertical_tile.rotate180
+            %p.name.topbottomnonproperty Music City Eats
+            %img.tile_image{src:'../images/top/mc_eats.png'}
+            %p.price $150
+          .vertical_tile.rotate180
+            .bar_purple_vertical
+            %p.name Jack's BBQ
+            %img.tile_image{src:'../images/left/jacks.png'}
+            %p.price $140
+          .vertical_tile.rotate180
+            .bar_purple_vertical
+            %p.name#saucer Flying Saucer
+            %img.tile_image{src:'../images/left/flying_saucer.png'}
+            %p.price $160
+          .vertical_tile.rotate180
+            %p.name.topbottomnonproperty Smokin Thighs
+            %img.tile_image{src:'../images/bottom/sm_truck.png'}
+            %p.price $200
+          .vertical_tile.rotate180
+            .bar_orange_vertical
+            %p.name#tootsies Tootsies
+            %img.tile_image{src:'../images/left/tootsies.png'}
+            %p.price $180
+          .vertical_tile.rotate180
+            %p.name.topbottomnonproperty Community Chest
+            %img.tile_image{src:'../images/bottom/comm_chest.png'}
+          .vertical_tile.rotate180
+            .bar_orange_vertical
+            %p.name#robert Robert's Western World
+            %img.tile_image#rob_image{src:'../images/left/Roberts.png'}
+            %p.price $180
+          .vertical_tile.rotate180
+            .bar_orange_vertical
+            %p.name#printer Printer's Alley
+            %img.tile_image#printer_image{src:'../images/left/printers_alley.png'}
+            %p.price $200
+          .corner
+            %img#parking{src:'../images/top/free_parking.png'}
+        #across_columns
+          .column#left
+            .horizontal_tile
+              .bar_lightblue_horizontal_fr
+              %p.name.lcolname#coco Coco's
+              %img.tile_image.limage{src:'../images/bottom/cafecoco.jpg'}
+              %p.price.lprice $120
+            .horizontal_tile
+              .bar_lightblue_horizontal_fr
+              %p.name.lcolname#gabby Gabby's Burgers
+              %img.tile_image.limage{src:'../images/bottom/gabbys.png'}
+              %p.price.lprice $100
+            .horizontal_tile
+              %p.name.lcolname Chance
+              %img.tile_image.limage{src:'../images/bottom/chance_orange.png'}
+            .horizontal_tile
+              .bar_lightblue_horizontal_fr
+              %p.name.lcolname#baja Baja Burrito
+              %img.tile_image.limage{src:'../images/bottom/bajaburrito.png'}
+              %p.price.lprice $100
+            .horizontal_tile
+              %p.name.lcolname#cheesename Grilled Cheeserie
+              %img.tile_image.limage{src:'../images/right/cheese_truck.png'}
+              %p.price.lprice $200
+            .horizontal_tile
+              %p.name.lcolname#healthname Health Inspection
+              %img.tile_image.limage{src:'../images/left/health.png'}
+              %p.price.lprice#healthprice Pay $200
+            .horizontal_tile
+              .bar_brown_horizontal_fr
+              %p.name.lcolname#opry The Opry
+              %img.tile_image.limage{src:'../images/opry.jpg'}
+              %p.price.lprice#opryprice $60
+            .horizontal_tile
+              %p.name.lcolname#communityname Community Chest
+              %img.tile_image.limage{src:'../images/left/comm_chest.png'}
+            .horizontal_tile
+              .bar_brown_horizontal_fr
+              %p.name.lcolname#ryman Ryman Auditorium
+              %img.tile_image.limage{src:'../images/ryman.jpg'}
+              %p.price.lprice#rymanprice $60
+          .insideboard
+            #chance
+              .chance1
+                .img1
+                  %img{src:'../images/cards/chance.png'}
+                .img2
+                  %img{src:'../images/cards/chance4.png'}
+                .clear
+              .chance2
+                .img1
+                  %img{src:'../images/cards/chance.png'}
+                .img2
+                  %img{src:'../images/cards/chance2.png'}
+                .clear
+              .chance3
+                .img1
+                  %img{src:'../images/cards/chance.png'}
+                .img2
+                  %img{src:'../images/cards/chance3.png'}
+                .clear
+              .chance4
+                .img1
+                  %img{src:'../images/cards/chance.png'}
+                .img2
+                  %img{src:'../images/cards/chance1.png'}
+                .clear
+              .chance5
+                .img1
+                  %img{src:'../images/cards/chance.png'}
+                .img2
+                  %img{src:'../images/cards/chance5.png'}
+                .clear
+            #chest
+              .chest1
+                .img1
+                  %img{src:'../images/cards/chest.png'}
+                .img2
+                  %img{src:'../images/cards/chest1.png'}
+                .clear
+              .chest2
+                .img1
+                  %img{src:'../images/cards/chest.png'}
+                .img2
+                  %img{src:'../images/cards/chest2.png'}
+                .clear
+              .chest3
+                .img1
+                  %img{src:'../images/cards/chest.png'}
+                .img2
+                  %img{src:'../images/cards/chest3.png'}
+                .clear
+              .chest4
+                .img1
+                  %img{src:'../images/cards/chest.png'}
+                .img2
+                  %img{src:'../images/cards/chest4.png'}
+                .clear
+              .chest5
+                .img1
+                  %img{src:'../images/cards/chest.png'}
+                .img2
+                  %img{src:'../images/cards/chest5.png'}
+                .clear
+          .column#right
+            .horizontal_tile
+              .bar_red_horizontal_fl
+              %p.name.rcolname Pancake Pantry
+              %img.tile_image.rimage{src:'../images/top/pancake_pantry.png'}
+              %p.price.rprice $220
+            .horizontal_tile
+              %p.name.rcolname Chance
+              %img.tile_image.rimage{src:'../images/bottom/chance_orange.png'}
+            .horizontal_tile
+              .bar_red_horizontal_fl
+              %p.name.rcolname Loveless Cafe
+              %img.tile_image.rimage{src:'../images/top/loveless.png'}
+              %p.price.rprice $220
+            .horizontal_tile
+              .bar_red_horizontal_fl
+              %p.name.rcolname Fido's
+              %img.tile_image.rimage{src:'../images/top/fido.png'}
+              %p.price.rprice $240
+            .horizontal_tile
+              %p.name.rcolname Mas Tacos
+              %img.tile_image.rimage{src:'../images/left/mas_truck.png'}
+              %p.price.rprice $200
+            .horizontal_tile
+              .bar_yellow_horizontal_fl
+              %p.name.rcolname Prince's Hot Chicken
+              %img.tile_image.rimage{src:'../images/top/princes.png'}
+              %p.price.rprice $260
+            .horizontal_tile
+              .bar_yellow_horizontal_fl
+              %p.name.rcolname Bluebird Cafe
+              %img.tile_image.rimage{src:'../images/top/bluebird.png'}
+              %p.price.rprice $260
+            .horizontal_tile
+              %p.name.rcolname Nashville Scene
+              %img.tile_image.rimage{src:'../images/left/nash_scene.png'}
+              %p.price.rprice $150
+            .horizontal_tile
+              .bar_yellow_horizontal_fl
+              %p.name.rcolname#noshville Noshville
+              %img.tile_image.rimage{src:'../images/top/noshville.png'}
+              %p.price.rprice $260
+        .row#bottom.clear
+          .corner
+            %img#go{src:'../images/bottom/go.png'}
+          .vertical_tile
+            .bar_darkblue_vertical
+            %p.name#sperry Sperry's
+            %img.tile_image{src:'../images/right/sperrys.png'}
+            %p.price $400
+          .vertical_tile
+            %p.name.topbottomnonproperty Health Inspection
+            %img.tile_image{src:'../images/left/health.png'}
+            %p.price Pay $75
+          .vertical_tile
+            .bar_darkblue_vertical
+            %p.name#palm The Palm
+            %img.tile_image{src:'../images/right/palm.png'}
+            %p.price $350
+          .vertical_tile
+            %p.name.topbottomnonproperty Chance
+            %img.tile_image#chancebottom{src:'../images/bottom/chance_orange.png'}
+          .vertical_tile
+            %p.name.topbottomnonproperty Delta Bound
+            %img.tile_image{src:'../images/top/delta_truck.png'}
+            %p.price $200
+          .vertical_tile
+            .bar_green_vertical
+            %p.name#eastland Eastland Cafe
+            %img.tile_image{src:'../images/right/eastland_cafe.png'}
+            %p.price $300
+          .vertical_tile
+            %p.name.topbottomnonproperty Community Chest
+            %img.tile_image{src:'../images/bottom/comm_chest.png'}
+          .vertical_tile
+            .bar_green_vertical
+            %p.name#marche Marche
+            %img.tile_image{src:'../images/right/marche.png'}
+            %p.price $300
+          .vertical_tile
+            .bar_green_vertical
+            %p.name Rosepepper Cantina
+            %img.tile_image{src:'../images/right/rosepepper.png'}
+            %p.price $300
+          .corner
+            %img#go_jail{src:'../images/bottom/go_to_jail.png'}
 
 
